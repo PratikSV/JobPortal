@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Collage BCA\\PROJECT\\Job Portal\\JobPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D36EF35-36C2-4E3B-BCDE-BE2875533AAA}|JobPortal\\JobPortal.csproj|b:\\collage bca\\project\\job portal\\jobportal\\jobportal\\usermaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0D36EF35-36C2-4E3B-BCDE-BE2875533AAA}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\usermaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserMaster.Master",
+              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\Job Portal\\JobPortal\\JobPortal\\UserMaster.Master",
+              "RelativeDocumentMoniker": "JobPortal\\UserMaster.Master",
+              "ToolTip": "B:\\Collage BCA\\PROJECT\\Job Portal\\JobPortal\\JobPortal\\UserMaster.Master",
+              "RelativeToolTip": "JobPortal\\UserMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-31T15:23:24.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
