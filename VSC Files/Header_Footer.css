@@ -1,0 +1,90 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: navy;
+    width: auto;
+    height: 5rem;
+    padding: 20px 90px;
+}
+
+/* Left Header (Logo) */
+.left_header img {
+    height: 50px; /* Adjust as needed */
+}
+
+/* Middle Header (Navigation) */
+.mid_header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.mid_header nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.mid_header nav ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar Hover Effect (Underline on Hover) */
+.mid_header nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid_header nav ul li a:hover {
+    color: #fd0c69; /* Change text color on hover */
+}
+
+.mid_header nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Right Header (Register & Login) */
+.right_header {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Register and Login Button Styles */
+.right_header h5 a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid #fd0c69;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Register Button */
+.right_header #reg a {
+    background-color: #fd0c69;
+}
+
+/* Hover Effects for Register & Login */
+.right_header h5 a:hover {
+    background-color: #fd0c69;
+    color: white;
+}
