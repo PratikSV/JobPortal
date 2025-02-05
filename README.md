@@ -73,6 +73,6 @@ This project is licensed under the **MIT License**.
 
 ## Contact
 For any queries, feel free to reach out:
-- **Pratik** - [email@example.com](mailto:email@example.com)
+- **Pratik** - [pratikgaikwad7738@gmail.com](mailto:email@example.com)
 - **Vinayak** - [email@example.com](mailto:email@example.com)
 
