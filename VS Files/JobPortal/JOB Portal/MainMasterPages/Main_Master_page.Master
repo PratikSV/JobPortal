@@ -23,23 +23,17 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="Home.aspx">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="About.aspx">About</a>
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page"  href="About.aspx">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Contact</a>
         </li>
       </ul>
-        <form class="container-fluid justify-content-start">
-    <button class="btn btn-sm btn-outline-secondary" type="button">Login</button>
-    <button class="btn btn-sm btn-outline-secondary" type="button">SignUp</button>
-  </form>
-    </div>
-  </div>
 </nav>
             <!-- Main Content -->
     <div class="container mt-4">
