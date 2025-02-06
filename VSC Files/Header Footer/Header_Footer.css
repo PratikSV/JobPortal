@@ -88,3 +88,69 @@ header {
     background-color: #fd0c69;
     color: white;
 }
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    color: white;
+    gap: 5rem;
+}
+
+footer h3 {
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer Hover Effects */
+footer p:hover,
+footer ul li a:hover,
+footer input:hover,
+footer .down span:hover {
+    color: #fd0c69;
+}
+
+/* Important Links */
+footer .imp_links .up_3 ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+footer .imp_links .up_3 ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Newsletter Input */
+footer .news .up_4 input {
+    padding: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Footer Structure */
+footer .up_1 {
+    margin-bottom: 13rem;
+}
+
+footer .up_2 {
+    margin-bottom: 7.5rem;
+}
+
+footer .up_3 {
+    margin-bottom: 6rem;
+} 
+
+footer .up_4 {
+    margin-bottom: 7.5rem;
+}
+
+footer .down span {
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .down {
+    margin-bottom: 5rem;
+}
