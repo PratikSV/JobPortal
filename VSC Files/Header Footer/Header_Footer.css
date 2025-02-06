@@ -14,7 +14,7 @@ header {
     border: 1px solid transparent;
     background-color: navy;
     width: auto;
-    height: 5rem;
+    height: 4rem;
     padding: 20px 90px;
 }
 
@@ -26,7 +26,7 @@ header {
 /* Middle Header (Navigation) */
 .mid_header nav ul {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .mid_header nav ul li {

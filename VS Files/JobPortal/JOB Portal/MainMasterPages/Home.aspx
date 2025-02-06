@@ -3,6 +3,6 @@
    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Welcome to My Website</h1>
+    <h1>Welcom</h1>
     <p>This is the homepage. Content will go here.</p>
 </asp:Content>
