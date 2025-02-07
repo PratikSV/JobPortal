@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
+    <Content Include="MainMasterPages\CSS\Home.css" />
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
