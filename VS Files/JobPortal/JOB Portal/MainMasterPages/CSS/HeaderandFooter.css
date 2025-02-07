@@ -6,6 +6,15 @@
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
+/*Sticking thead navbar at top*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 /* Header Styling */
 .navbar {
     background-color: #333333 !important;
