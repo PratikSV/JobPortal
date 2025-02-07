@@ -70,6 +70,8 @@
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
+    <Content Include="MainMasterPages\Icon\lock_FILL1_wght400_GRAD0_opsz24.svg" />
+    <Content Include="MainMasterPages\Icon\person_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\Images\loginandSignup\background2.png" />
     <Content Include="MainMasterPages\Images\logo.png" />
     <Content Include="MainMasterPages\page.aspx" />
@@ -148,9 +150,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MainMasterPages\Icon\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
