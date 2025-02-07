@@ -70,6 +70,7 @@
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
+    <Content Include="MainMasterPages\Images\loginandSignup\background2.png" />
     <Content Include="MainMasterPages\page.aspx" />
     <Content Include="MainMasterPages\Register.aspx" />
     <Content Include="MainMasterPages\Login.aspx" />
