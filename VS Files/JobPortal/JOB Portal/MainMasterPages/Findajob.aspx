@@ -11,7 +11,7 @@
 
         .layout-container {
             display: flex;
-            margin-top: 80px;
+            margin-top: 120px;
         }
 
         .filter-panel {
@@ -89,13 +89,18 @@
             background: #FF9800;
             color: white;
         }
+        /*this class is not applicable*/
+        .orang{
+            color: #FF9800;
+            font-weight: bold;
+        }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="layout-container">
         <div class="filter-panel">
-            <h4>Filter Jobs</h4>
+            <h4 class="orang">Filter Jobs</h4>
             <label>Job Category</label>
             <select>
                 <option>All Category</option>
@@ -122,18 +127,18 @@
                 <option>4-5 years</option>
                 <option>6+ years</option>
             </select>
-            
-            <label><input type="checkbox"> Full Time</label>
-            <label><input type="checkbox"> Part Time</label>
-            <label><input type="checkbox"> Remote</label>
-            <label><input type="checkbox"> Freelance</label>
+            <label>Job Type</label>
+                <Label><input type="checkbox"> Full Time</Label>
+                <label><input type="checkbox"> Part Time</label>
+                <label><input type="checkbox"> Remote</label>
+                <label><input type="checkbox"> Freelance</label>
         </div>
         
         <div class="job-section">
             <div class="job-box">
                 <img src="images/logo1.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h5>Digital Marketer</h5>
+                    <h5 class ="orang">Digital Marketer</h5>
                     <p>Creative Agency - Athens, Greece</p>
                     <p>$3500 - $4000</p>
                     <span class="employment-type">Full Time</span>
@@ -142,7 +147,7 @@
             <div class="job-box">
                 <img src="images/logo2.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h5>Software Developer</h5>
+                    <h5 class ="orang">Software Developer</h5>
                     <p>Tech Company - New York, USA</p>
                     <p>$5000 - $6000</p>
                     <span class="employment-type">Remote</span>

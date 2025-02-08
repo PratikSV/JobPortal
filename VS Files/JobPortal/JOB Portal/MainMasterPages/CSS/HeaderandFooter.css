@@ -80,35 +80,5 @@
         transform: scale(0.98);
     }
 
+
 /* Footer Styling */
-footer {
-    background-color: #333333;
-    color: white;
-    padding: 40px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-    footer a {
-        text-decoration: none;
-        color: white;
-        transition: color 0.3s ease-in-out;
-    }
-
-        footer a:hover {
-            color: #FF9800;
-        }
-
-    footer input {
-        padding: 10px;
-        width: 100%;
-        border-radius: 5px;
-        border: 1px solid white;
-    }
-
-    footer .text-center {
-        margin-top: 20px;
-        text-align: center;
-        width: 100%;
-    }
