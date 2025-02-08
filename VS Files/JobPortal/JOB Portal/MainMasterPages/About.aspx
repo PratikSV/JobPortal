@@ -71,14 +71,18 @@
                We are committed to making job searching effortless by offering personalized job recommendations, easy applications, and real-time updates. Join us today and take the first step toward your dream career!</p>
 
             <div class="right-about">
-                <img src="\images\logo.png" />
+
+                <img src="#" />      <!-- Add Image here -->
+
             </div>
         </div>
     </section>
 
     <section class="vision">
         <div class="left-vision">
-            <img src="#" />
+
+            <img src="#" />     <!-- Add Image here -->
+
         </div>
 
         <div class="right-vision">
@@ -97,13 +101,17 @@
         </div>
 
         <div class="right-mission">
-            <img src="#" />
+
+            <img src="#" />     <!-- Add Image here -->
+
         </div>
     </section>
 
     <section class="who">
         <div class="left-who">
-            <img src="#" />
+
+            <img src="#" />     <!-- Add Image here -->
+
         </div>
 
         <div class="right-who">
