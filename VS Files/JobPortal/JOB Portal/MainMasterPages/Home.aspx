@@ -9,13 +9,10 @@
             padding: 0;
             width: 100%;
             overflow-x: hidden;
-            background-color: #FFFFFF;
             color: #333333;
             font-family: 'Poppins', sans-serif;
         }
         .hero-section {
-            background: #FFFFFF;
-            color: #333333;
             text-align: center;
             height: 100vh;
             display: flex;
@@ -78,11 +75,9 @@
             background-color: #E65100;
         }
         .categories-section {
-            height: 90vh;
             text-align: center;
             padding: 50px 0;
             width: 100%;
-            background-color: #F5F5F5;
         }
         .categories-heading {
             font-size: 32px;
@@ -99,29 +94,34 @@
             margin: auto;
         }
         .category-card {
-            background: #FFB74D;
-            color: white;
-            padding: 20px;
+            border: 2px solid #FF9800;
+            color: #333333;
+            padding: 40px;
             border-radius: 10px;
             text-align: center;
-            font-size: 18px;
+            font-size: 22px;
             font-weight: bold;
             cursor: pointer;
-            width: 200px;
-            height: 200px;
+            width: 220px;
+            height: 220px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin: auto;
+            background: transparent;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
         .category-card i {
             display: block;
-            font-size: 24px;
+            font-size: 40px;
             margin-bottom: 10px;
         }
+        .category-card p {
+            font-size: 14px;
+        }
         .category-card:hover {
-            background: #E65100;
+            background: #FFF3E0;
         }
         .browse-btn {
             display: inline-block;
@@ -165,15 +165,15 @@
     <div class="categories-section">
         <h2 class="categories-heading">Browse Top Categories</h2>
         <div class="categories-grid">
-            <div class="category-card"><i class="fas fa-laptop-code"></i> IT & Software</div>
-            <div class="category-card"><i class="fas fa-chart-line"></i> Finance</div>
-            <div class="category-card"><i class="fas fa-bullhorn"></i> Marketing</div>
-            <div class="category-card"><i class="fas fa-user-md"></i> Healthcare</div>
-            <div class="category-card"><i class="fas fa-cogs"></i> Engineering</div>
-            <div class="category-card"><i class="fas fa-book-open"></i> Education</div>
-            <div class="category-card"><i class="fas fa-handshake"></i> Sales</div>
-            <div class="category-card"><i class="fas fa-headset"></i> Customer Service</div>
+            <div class="category-card"><i class="fas fa-laptop-code"></i> <strong>IT & Software</strong> <p>Software development, cybersecurity, and more.</p></div>
+            <div class="category-card"><i class="fas fa-chart-line"></i> <strong>Finance</strong> <p>Accounting, banking, and financial analysis.</p></div>
+            <div class="category-card"><i class="fas fa-bullhorn"></i> <strong>Marketing</strong> <p>Digital marketing, SEO, and advertising.</p></div>
+            <div class="category-card"><i class="fas fa-user-md"></i> <strong>Healthcare</strong> <p>Medical, nursing, and healthcare services.</p></div>
+            <div class="category-card"><i class="fas fa-cogs"></i> <strong>Engineering</strong> <p>Mechanical, electrical, and civil engineering.</p></div>
+            <div class="category-card"><i class="fas fa-book-open"></i> <strong>Education</strong> <p>Teaching, training, and academic research.</p></div>
+            <div class="category-card"><i class="fas fa-handshake"></i> <strong>Sales</strong> <p>Retail, B2B sales, and business development.</p></div>
+            <div class="category-card"><i class="fas fa-headset"></i> <strong>Customer Service</strong> <p>Support, tele-calling, and client handling.</p></div>
         </div>
-        <a href="FindaJob.aspx" class="browse-btn">Browse all categories</a>
+        <button class="browse-btn" onclick="location.href='FindaJob.aspx';">Browse all categories</button>
     </div>
 </asp:Content>
