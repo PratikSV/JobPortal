@@ -2,16 +2,20 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             overflow-x: hidden;
+            background-color: #FFFFFF;
+            color: #333333;
+            font-family: 'Poppins', sans-serif;
         }
         .hero-section {
-            background: linear-gradient(to right, #FF7F50, #FF4500);
-            color: white;
+            background: #FFFFFF;
+            color: #333333;
             text-align: center;
             height: 100vh;
             display: flex;
@@ -24,11 +28,13 @@
         .hero-heading {
             font-size: 48px;
             font-weight: bold;
+            color: #333333;
         }
         .hero-subtext {
             font-size: 20px;
             margin-top: 10px;
             opacity: 0.9;
+            color: #333333;
         }
         .search-container {
             margin-top: 20px;
@@ -40,23 +46,28 @@
             padding: 10px;
             width: 250px;
             border-radius: 5px;
-            border: none;
+            border: 1px solid #FF9800;
+            background: #FFFFFF;
+            color: #333333;
         }
         .search-btn {
-            background-color: #000;
+            background-color: #FF9800;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
             border: none;
             cursor: pointer;
         }
+        .search-btn:hover {
+            background-color: #E65100;
+        }
         .cta-buttons {
             margin-top: 20px;
         }
         .cta-buttons .btn {
             padding: 12px 20px;
-            background-color: #fff;
-            color: #FF4500;
+            background-color: #FF9800;
+            color: white;
             font-weight: bold;
             text-decoration: none;
             border-radius: 5px;
@@ -64,18 +75,20 @@
             display: inline-block;
         }
         .cta-buttons .btn:hover {
-            background-color: #ddd;
+            background-color: #E65100;
         }
         .categories-section {
             height: 90vh;
             text-align: center;
             padding: 50px 0;
             width: 100%;
+            background-color: #F5F5F5;
         }
         .categories-heading {
-            font-size: 28px;
+            font-size: 32px;
             font-weight: bold;
             margin-bottom: 20px;
+            color: #333333;
         }
         .categories-grid {
             display: grid;
@@ -86,7 +99,7 @@
             margin: auto;
         }
         .category-card {
-            background: #FF7F50;
+            background: #FFB74D;
             color: white;
             padding: 20px;
             border-radius: 10px;
@@ -108,20 +121,20 @@
             margin-bottom: 10px;
         }
         .category-card:hover {
-            background: #FF4500;
+            background: #E65100;
         }
         .browse-btn {
             display: inline-block;
             margin-top: 30px;
             padding: 12px 20px;
-            background-color: #FF4500;
+            background-color: #FF9800;
             color: white;
             font-weight: bold;
             text-decoration: none;
             border-radius: 5px;
         }
         .browse-btn:hover {
-            background-color: #FF7F50;
+            background-color: #E65100;
         }
     </style>
 </asp:Content>
