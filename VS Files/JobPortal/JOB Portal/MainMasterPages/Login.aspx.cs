@@ -13,5 +13,25 @@ namespace JOB_Portal.MainMasterPages
         {
 
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            string password = txtPassword.Text;
+
+            if (IsValidUser(email, password))
+            {
+                Response.Redirect("Dashboard.aspx"); // Redirect to dashboard after successful login
+            }
+            else
+            {
+                lblErrorMessage.Text = "Invalid email or password. Please try again.";
+            }
+        }
+        private bool IsValidUser(string email, string password)
+        {
+            // Replace this with actual database authentication
+            return email == "admin@example.com" && password == "password123";
+        }
     }
 }

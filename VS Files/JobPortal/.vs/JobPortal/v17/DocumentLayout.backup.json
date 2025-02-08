@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\main_master_page.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\main_master_page.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\findajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\findajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\headerandfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\headerandfooter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,115 +18,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "About.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\About.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\About.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\About.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-05T17:38:26.589Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Login.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Login.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Login.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T03:48:22.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Register.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Register.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Register.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T03:47:16.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Findajob.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Findajob.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Findajob.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Findajob.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Findajob.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T03:40:17.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "page.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\page.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\page.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\page.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\page.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T03:32:57.492Z",
+              "DocumentIndex": 1,
+              "Title": "Home.css",
+              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\CSS\\Home.css",
+              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\CSS\\Home.css",
+              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\CSS\\Home.css",
+              "RelativeToolTip": "JOB Portal\\MainMasterPages\\CSS\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-07T18:39:33.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Contact.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Contact.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Contact.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Contact.aspx",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Contact.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T03:28:44.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main_Master_page.Master",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Main_Master_page.Master",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Main_Master_page.Master",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Main_Master_page.Master",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Main_Master_page.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-06T14:12:57.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HeaderandFooter.css",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\HeaderandFooter.css",
-              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\HeaderandFooter.css",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\HeaderandFooter.css",
-              "RelativeToolTip": "JOB Portal\\MainMasterPages\\HeaderandFooter.css",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-06T14:28:39.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Home.aspx",
               "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Home.aspx",
               "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Home.aspx",
@@ -162,7 +43,7 @@
               "RelativeToolTip": "JOB Portal\\MainMasterPages\\Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-05T17:38:23.294Z",
+              "WhenOpened": "2025-02-07T18:38:44.34Z",
               "EditorCaption": ""
             }
           ]
