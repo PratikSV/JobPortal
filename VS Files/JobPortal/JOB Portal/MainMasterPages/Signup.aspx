@@ -18,7 +18,7 @@
         <asp:Panel ID="pnlSignup" runat="server">
             <div class="input-group">
                 
-                <asp:TextBox ID="txtFirstname" runat="server" CssClass="input" placeholder="Firstname"></asp:TextBox>
+                <asp:TextBox ID="txtFirstname" runat="server" CssClass="input" placeholder="Name"></asp:TextBox>
             </div>
             <div class="input-group">
                 

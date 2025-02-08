@@ -3,6 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
         .contact {
             display: flex;
             justify-content: space-between;
@@ -12,10 +16,17 @@
             background: #ffffff;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 1000px;
         }
 
         .contact h2 {
-            color: #0073e6;
+            color: #ff7700;
         }
 
         .left-contact, .right-contact {
@@ -36,7 +47,7 @@
         }
 
         .submit {
-            background-color: #0073e6;
+            background-color: #ff7700;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -45,14 +56,13 @@
         }
 
         .submit:hover {
-            background-color: #005bb5;
+            background-color: #cc5e00;
         }
-     
     </style>
-
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<body>
     <section class="contact">
         <div class="left-contact">
             <h2 class="contact-head">Basic Contact Info</h2>
@@ -70,4 +80,5 @@
             <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" />
         </div>
     </section>
+</body>
 </asp:Content>
