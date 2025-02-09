@@ -127,11 +127,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
+<style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: white;
-            color: black;
+            background-color: #fff4e6;
+            color: #333;
             text-align: center;
         }
         .section {
@@ -141,37 +141,42 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #FF8C00 !important;
-            color: white;
+            background-color: #ffe8cc !important;
+            color: #333;
         }
         .btn-primary {
-            background-color: #FF8C00;
+            background: linear-gradient(135deg, #ff8c00, #ff6000);
             border: none;
-            padding: 10px 20px;
+            padding: 12px 25px;
             font-size: 18px;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
+            color: white;
         }
         .btn-primary:hover {
-            background-color: #E07B00;
+            background: linear-gradient(135deg, #e07b00, #cc5500);
             transform: scale(1.05);
         }
         .btn-primary:active {
-            background-color: #C96A00;
             transform: scale(0.95);
         }
         .icon {
-            font-size: 24px;
+            font-size: 28px;
             margin-bottom: 15px;
+            color: #ff8c00;
         }
         a {
-            color: #FF8C00;
+            color: #ff8c00;
+            text-decoration: none;
         }
         a:hover {
-            color: #E07B00;
+            color: #e07b00;
         }
         .custom-footer {
             background-color: #222;
@@ -180,17 +185,16 @@
             text-align: center;
         }
         .custom-footer a {
-            color: #FF8C00;
-            text-decoration: none;
+            color: #ff8c00;
         }
         .custom-footer a:hover {
-            color: #E07B00;
+            color: #e07b00;
         }
         .step-card {
             background: white;
-            border-radius: 10px;
+            border-radius: 12px;
             padding: 20px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             text-align: center;
             transition: transform 0.3s ease-in-out;
         }

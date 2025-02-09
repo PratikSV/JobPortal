@@ -2,11 +2,15 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
+            background-color: #fff4e6; 
+            color: #333;
         }
-        
+
         .contact {
             display: flex;
             justify-content: space-between;
@@ -26,7 +30,8 @@
         }
 
         .contact h2 {
-            color: #ff7700;
+            color: #ff8c00; 
+            margin-bottom: 1rem;
         }
 
         .left-contact, .right-contact {
@@ -42,21 +47,44 @@
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ccc;
+            border: 1px solid black; 
             border-radius: 5px;
+            background-color: #fff8f1; 
+        }
+
+        .input-field:focus {
+            border-color: #ff8c00; 
+            outline: none;
+            background-color: #ffe0b3; 
         }
 
         .submit {
-            background-color: #ff7700;
+            background-color: #ff8c00; 
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
         }
 
         .submit:hover {
-            background-color: #cc5e00;
+            background-color: #e07b00; 
+        }
+
+        .submit:active {
+            transform: scale(0.98); 
+        }
+
+        .contact p {
+            color: #333; 
+            font-size: 16px;
+        }
+
+        .contact-head, .form-head {
+            font-weight: 600;
+            color: #ff8c00;
         }
     </style>
 </asp:Content>
