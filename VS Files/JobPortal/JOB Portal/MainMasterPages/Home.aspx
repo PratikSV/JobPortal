@@ -3,7 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="css\HomeBG.css" rel="stylesheet" />
     <style>
+
         body, html {
             margin: 0;
             padding: 0;
@@ -140,6 +142,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="center">
+    </div>
     <div class="hero-section">
         <h1 class="hero-heading">Find Your Dream Job Today!</h1>
         <p class="hero-subtext">Explore top companies and apply for the best opportunities.</p>
