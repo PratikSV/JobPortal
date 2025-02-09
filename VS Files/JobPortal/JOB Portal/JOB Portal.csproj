@@ -68,13 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
-    <Content Include="MainMasterPages\CSS\Home.css" />
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
     <Content Include="MainMasterPages\Icon\lock_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\Icon\person_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\Images\DreamJOBLogo.png" />
+    <Content Include="MainMasterPages\Images\homebgvideo.mp4" />
     <Content Include="MainMasterPages\Images\loginandSignup\loginandsignup.png" />
     <Content Include="MainMasterPages\page.aspx" />
     <Content Include="MainMasterPages\Login.aspx" />

@@ -141,7 +141,7 @@
                     <h3 class ="orang">Digital Marketer</h3>
                     <p>Creative Agency - Athens, Greece</p>
                     <p>$3500 - $4000</p>
-                    <span class="employment-type">Full Time</span>
+                    <asp:Button ID="CreativeAgency" runat="server" CssClass="employment-type" Text="Full Time" />
                 </div>
             </div>
             <div class="job-box">
@@ -150,7 +150,7 @@
                     <h3 class ="orang">Software Developer</h3>
                     <p>Tech Company - New York, USA</p>
                     <p>$5000 - $6000</p>
-                    <span class="employment-type">Remote</span>
+                    <asp:Button ID="TechCompany" runat="server" CssClass="employment-type" Text="Remote" />
                 </div>
             </div>
         </div>

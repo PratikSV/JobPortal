@@ -13,5 +13,23 @@ namespace JOB_Portal.MainMasterPages
 
     public partial class Findajob
     {
+
+        /// <summary>
+        /// CreativeAgency control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CreativeAgency;
+
+        /// <summary>
+        /// TechCompany control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TechCompany;
     }
 }
