@@ -100,7 +100,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="layout-container">
         <div class="filter-panel">
-            <h4 class="orang">Filter Jobs</h4>
+            <h2 class="orang">Filter Jobs</h2>
             <label>Job Category</label>
             <select>
                 <option>All Category</option>
@@ -138,7 +138,7 @@
             <div class="job-box">
                 <img src="images/logo1.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h5 class ="orang">Digital Marketer</h5>
+                    <h3 class ="orang">Digital Marketer</h3>
                     <p>Creative Agency - Athens, Greece</p>
                     <p>$3500 - $4000</p>
                     <span class="employment-type">Full Time</span>
@@ -147,7 +147,7 @@
             <div class="job-box">
                 <img src="images/logo2.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h5 class ="orang">Software Developer</h5>
+                    <h3 class ="orang">Software Developer</h3>
                     <p>Tech Company - New York, USA</p>
                     <p>$5000 - $6000</p>
                     <span class="employment-type">Remote</span>
