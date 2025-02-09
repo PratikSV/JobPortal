@@ -96,7 +96,7 @@
             margin: auto;
         }
         .category-card {
-            border: 2px solid #FF9800;
+/*            border: 2px solid #FF9800;*/
             color: #333333;
             padding: 40px;
             border-radius: 10px;
@@ -111,7 +111,7 @@
             justify-content: center;
             align-items: center;
             margin: auto;
-            background: transparent;
+            background: rgba(255, 255, 255, 0.7);
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
         .category-card i {
@@ -123,7 +123,8 @@
             font-size: 14px;
         }
         .category-card:hover {
-            background: #FFF3E0;
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.9);
         }
         .browse-btn {
             display: inline-block;
@@ -137,6 +138,11 @@
         }
         .browse-btn:hover {
             background-color: #E65100;
+        }
+        .bg{
+          background: rgba(255, 255, 255, 0.7); /* White background with 50% visibility */
+          padding: 20px;
+          border-radius: 10px;  
         }
     </style>
 </asp:Content>
@@ -166,7 +172,7 @@
         </div>
     </div>
     
-    <div class="categories-section">
+    <div class="categories-section bg">
         <h2 class="categories-heading">Browse Top Categories</h2>
         <div class="categories-grid">
             <div class="category-card"><i class="fas fa-laptop-code"></i> <strong>IT & Software</strong> <p>Software development, cybersecurity, and more.</p></div>
@@ -178,6 +184,6 @@
             <div class="category-card"><i class="fas fa-handshake"></i> <strong>Sales</strong> <p>Retail, B2B sales, and business development.</p></div>
             <div class="category-card"><i class="fas fa-headset"></i> <strong>Customer Service</strong> <p>Support, tele-calling, and client handling.</p></div>
         </div>
-        <button class="browse-btn" onclick="location.href='FindaJob.aspx';">Browse all categories</button>
+        <a class="browse-btn" href="Findajob.aspx">Browse all categories</a>
     </div>
 </asp:Content>
