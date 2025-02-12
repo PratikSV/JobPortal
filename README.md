@@ -69,7 +69,7 @@ Ensure you have the following installed:
 5. Create a Pull Request.
 
 ## Assets
-<a href="https://wpdean.com/css-animated-background/">Animated background</a>
+<a href="https://wpdean.com/css-animated-background">Animated background</a>
 ## License
 This project is licensed under the **MIT License**.
 

@@ -169,6 +169,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="MainMasterPages\Images\Aboutpage\" />
     <Folder Include="MainMasterPages\JobSeekerMasterPage\" />
   </ItemGroup>
   <PropertyGroup>

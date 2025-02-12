@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\MultilevelInheritence\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E407FC7C-466C-4D39-BE5A-EF5B77F46B9D}|MultilevelInheritence\\MultilevelInheritence.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\multilevelinheritence\\multilevelinheritence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E407FC7C-466C-4D39-BE5A-EF5B77F46B9D}|MultilevelInheritence\\MultilevelInheritence.csproj|solutionrelative:multilevelinheritence\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\MultilevelInheritence\\MultilevelInheritence\\Program.cs",
+              "RelativeDocumentMoniker": "MultilevelInheritence\\Program.cs",
+              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\MultilevelInheritence\\MultilevelInheritence\\Program.cs",
+              "RelativeToolTip": "MultilevelInheritence\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA6wCcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:03:01.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
