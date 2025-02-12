@@ -67,7 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EmployerMasterPages\StyleSheet1.css" />
+    <Content Include="EmployerMasterPages\CSS\HeaderandFooter.css" />
+    <Content Include="EmployerMasterPages\Images\DreamJOBLogo.png" />
     <Content Include="EmployerMasterPages\WebForm1.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
