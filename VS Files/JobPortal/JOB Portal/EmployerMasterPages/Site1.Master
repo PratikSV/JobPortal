@@ -1,6 +1,6 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main_Master_page.master.cs" Inherits="JOB_Portal.Main_Master_page" %>
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JOB_Portal.EmployerMasterPages.Site1" %>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
 <html>
 <head runat="server">
@@ -72,14 +72,14 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item"><a class="nav-link" href="Home.aspx">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Findajob.aspx">Find a Job</a></li>
-                            <li class="nav-item"><a class="nav-link" href="About.aspx">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="page.aspx">Page</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Contact.aspx">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Postajob.aspx">Post a Job</a></li>
+                            <li class="nav-item"><a class="nav-link" href="managejob.aspx">Manage Jobs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="application.aspx">Applications</a></li>
+                            <li class="nav-item"><a class="nav-link" href="messages.aspx">Messages</a></li>
+                            <li class="nav-item"><a class="nav-link" href="profile.aspx">Profile</a></li>
                         </ul>
                         <div class="d-flex">
-                            <a class="btn btn-danger me-2 btn-register" href="Signup.aspx">Register</a>
-                            <a class="btn btn-outline-light btn-login" href="Login.aspx">Login</a>
+                            <a class="btn btn-danger me-2 btn-register" href="logout.aspx">Logout</a>
                         </div>
                     </div>
                 </div>
@@ -93,3 +93,4 @@
     </form>
 </body>
 </html>
+

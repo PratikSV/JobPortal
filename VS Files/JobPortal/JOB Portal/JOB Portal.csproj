@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EmployerMasterPages\CSS\HeaderandFooter.css" />
+    <Content Include="EmployerMasterPages\Images\DreamJOBLogo.png" />
+    <Content Include="EmployerMasterPages\WebForm1.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
     <Content Include="MainMasterPages\Findajob.aspx" />
@@ -84,6 +87,19 @@
     <Content Include="MainMasterPages\About.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployerMasterPages\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerMasterPages\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerMasterPages\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployerMasterPages\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainMasterPages\Findajob.aspx.cs">
       <DependentUpon>Findajob.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MainMasterPages\Main_Master_page.Master" />
+    <Content Include="EmployerMasterPages\Site1.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
