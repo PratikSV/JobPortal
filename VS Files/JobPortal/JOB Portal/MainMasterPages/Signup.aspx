@@ -11,7 +11,8 @@
     <style>
         body {
             background-color: #F5F5F5;
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
         .form-container {
             background: #FFFFFF;
@@ -20,7 +21,7 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             max-width: 600px;
             margin: auto;
-            margin-top: 100px; /* Added space for the navbar */
+            margin-top: 100px; 
         }
         .form-group {
             margin-bottom: 15px;
@@ -29,9 +30,10 @@
             width: 100%;
             padding: 8px;
             margin-top: 5px;
-            border: 1px solid #FF9800;
+            border: 2px solid #FF9800;
             border-radius: 4px;
             background: #FFFFFF;
+            font-family: 'Poppins', sans-serif;
         }
         .btn-primary {
             background-color: #FF9800;
@@ -41,27 +43,42 @@
             width: 100%;
             cursor: pointer;
             border-radius: 4px;
+            font-family: 'Poppins', sans-serif;
+            transition: transform 0.1s ease-in-out;
         }
         .btn-primary:hover {
             background-color: #E65100;
         }
+        .btn-primary:active {
+            transform: scale(0.95);
+        }
         h2 {
-            color: #333333;
+            font-weight: bold;
             text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 20px;
         }
-        .navbar {
-            background-color: #333333;
-            padding: 15px;
+        
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+            font-family: 'Poppins', sans-serif;
         }
-        .navbar a:hover {
+        .login-link a {
             color: #FF9800;
+            text-decoration: none;
+            font-weight: bold;
         }
-    </style>
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+  </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+   <div class="background">
     <div class="form-container">
-        <h2>Job Seeker Signup</h2>
+        <h2>Signup</h2>
         <div class="form-group">
             <asp:TextBox ID="txtFullName" runat="server" CssClass="form-control" Placeholder="Full Name" />
         </div>
@@ -120,5 +137,9 @@
             </asp:DropDownList>
         </div>
         <asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary" Text="Sign Up" />
+        <div class="login-link">
+            <p>Already have an account? <a href="Login.aspx">Login here</a></p>
+        </div>
     </div>
+   </div>
 </asp:Content>
