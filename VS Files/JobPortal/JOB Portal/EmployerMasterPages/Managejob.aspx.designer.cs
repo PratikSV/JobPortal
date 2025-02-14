@@ -11,7 +11,7 @@ namespace JOB_Portal.EmployerMasterPages
 {
 
 
-    public partial class WebForm1
+    public partial class WebForm3
     {
     }
 }
