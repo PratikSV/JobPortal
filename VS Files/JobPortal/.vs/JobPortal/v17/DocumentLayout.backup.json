@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\employermasterpages\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\employermasterpages\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\employermasterpages\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\employermasterpages\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\employermasterpages\\postajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\employermasterpages\\postajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Site1.Master",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Site1.Master",
-              "RelativeDocumentMoniker": "JOB Portal\\EmployerMasterPages\\Site1.Master",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Site1.Master",
-              "RelativeToolTip": "JOB Portal\\EmployerMasterPages\\Site1.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T05:55:11.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.aspx",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Home.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\EmployerMasterPages\\Home.aspx",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Home.aspx",
-              "RelativeToolTip": "JOB Portal\\EmployerMasterPages\\Home.aspx",
+              "Title": "Postajob.aspx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Postajob.aspx",
+              "RelativeDocumentMoniker": "JOB Portal\\EmployerMasterPages\\Postajob.aspx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Postajob.aspx",
+              "RelativeToolTip": "JOB Portal\\EmployerMasterPages\\Postajob.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-14T11:19:57.165Z",
+              "WhenOpened": "2025-02-15T06:41:43.724Z",
               "EditorCaption": ""
             }
           ]
