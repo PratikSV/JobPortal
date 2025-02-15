@@ -39,22 +39,35 @@
         }
 
         .cards {
-/*            height: 5rem;
-            width: 10rem;*/
             border: 1px solid bisque;
             background-color: beige;   
             border-radius: 10px;
-            padding: 5rem;
+            padding: 3rem;
         }
 
         .cards span {
-            font-size: 3rem;
-            color: forestgreen;
+            font-size: 2.5rem;
+            color: #333333;
+            font-weight: 700;
         }
 
         .cards p {
             font-size: 1.5rem;
         }
+
+        .cards #p1 {
+            color: #6c5ce7;
+        }
+
+        .cards #p2 {
+            color: #0984e3;
+        }
+
+        .cards #p3 {
+            color: #00b894;
+        }
+
+
     </style>
 </asp:Content>
 
@@ -70,9 +83,9 @@
         <div class="intro">
         <h1>Site Overview</h1>
             <div class="flex">
-                <div class="cards"><p><span>4m</span><br /> Current users</p></div>
-                <div class="cards"><p><span>500k</span><br /> Jobs posted</p></div>
-                <div class="cards"  ><p><span>200k</span><br /> Active users</p></div>
+                <div class="cards"><p id="p1"><span>4m</span><br /> Current users</p></div>
+                <div class="cards"><p id="p2"><span>500k</span><br /> Jobs posted</p></div>
+                <div class="cards"><p id="p3"><span>200k</span><br /> Active users</p></div>
             </div>
         </div>
     </section>

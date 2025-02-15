@@ -73,7 +73,6 @@
     <Content Include="EmployerMasterPages\Postajob.aspx" />
     <Content Include="EmployerMasterPages\Managejob.aspx" />
     <Content Include="EmployerMasterPages\Viewapplication.aspx" />
-    <Content Include="EmployerMasterPages\Message.aspx" />
     <Content Include="EmployerMasterPages\Profile.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
@@ -126,13 +125,6 @@
     </Compile>
     <Compile Include="EmployerMasterPages\Viewapplication.aspx.designer.cs">
       <DependentUpon>Viewapplication.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EmployerMasterPages\Message.aspx.cs">
-      <DependentUpon>Message.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EmployerMasterPages\Message.aspx.designer.cs">
-      <DependentUpon>Message.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmployerMasterPages\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
