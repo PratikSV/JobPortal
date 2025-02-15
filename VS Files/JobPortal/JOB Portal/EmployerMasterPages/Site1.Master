@@ -1,6 +1,6 @@
-﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JOB_Portal.EmployerMasterPages.Site1" %>
+﻿s<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JOB_Portal.EmployerMasterPages.Site1" %>
 
-    <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head runat="server">
@@ -75,7 +75,6 @@
                             <li class="nav-item"><a class="nav-link" href="Postajob.aspx">Post a Job</a></li>
                             <li class="nav-item"><a class="nav-link" href="managejob.aspx">Manage Jobs</a></li>
                             <li class="nav-item"><a class="nav-link" href="application.aspx">Applications</a></li>
-                            <li class="nav-item"><a class="nav-link" href="messages.aspx">Messages</a></li>
                             <li class="nav-item"><a class="nav-link" href="profile.aspx">Profile</a></li>
                         </ul>
                         <div class="d-flex">
@@ -93,4 +92,3 @@
     </form>
 </body>
 </html>
-
