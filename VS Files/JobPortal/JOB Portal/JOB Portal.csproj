@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin pages\CSS\HeaderandFooter.css" />
+    <Content Include="Admin pages\CSS\HomeBG.css" />
+    <Content Include="Admin pages\CSS\LoginandSignup.css" />
+    <Content Include="Admin pages\Dashbord.aspx" />
+    <Content Include="Admin pages\Images\DreamJOBLogo.png" />
+    <Content Include="Admin pages\Images\loginandSignup\loginandsignup.png" />
     <Content Include="EmployerMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="EmployerMasterPages\Images\DreamJOBLogo.png" />
     <Content Include="EmployerMasterPages\WebForm1.aspx" />
@@ -87,8 +93,22 @@
     <Content Include="MainMasterPages\About.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin pages\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin pages\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin pages\Dashbord.aspx.cs">
+      <DependentUpon>Dashbord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin pages\Dashbord.aspx.designer.cs">
+      <DependentUpon>Dashbord.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EmployerMasterPages\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="EmployerMasterPages\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -161,6 +181,7 @@
   <ItemGroup>
     <Content Include="MainMasterPages\Main_Master_page.Master" />
     <Content Include="EmployerMasterPages\Site1.Master" />
+    <Content Include="Admin pages\Admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -170,6 +191,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin pages\Images\Aboutpage\" />
     <Folder Include="MainMasterPages\Images\Aboutpage\" />
     <Folder Include="MainMasterPages\JobSeekerMasterPage\" />
   </ItemGroup>

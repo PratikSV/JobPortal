@@ -54,7 +54,6 @@ B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\bin\Micro
 B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.AssemblyReference.cache
 B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.CoreCompileInputs.cache
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.Up2Date
 B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.dll
 B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.pdb
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\bin\JOB Portal.dll.config
@@ -116,3 +115,4 @@ C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\De
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.Up2Date
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.dll
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.pdb
+B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.CopyComplete

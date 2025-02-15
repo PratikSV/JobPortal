@@ -60,15 +60,6 @@ namespace JOB_Portal.MainMasterPages
         protected global::System.Web.UI.WebControls.TextBox txtConfirmPassword;
 
         /// <summary>
-        /// fileProfilePic control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fileProfilePic;
-
-        /// <summary>
         /// fileResume control.
         /// </summary>
         /// <remarks>

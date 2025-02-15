@@ -1,7 +1,0 @@
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\bin\Debug\MultilevelInheritence.exe.config
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\bin\Debug\MultilevelInheritence.exe
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\bin\Debug\MultilevelInheritence.pdb
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\obj\Debug\MultilevelInheritence.csproj.AssemblyReference.cache
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\obj\Debug\MultilevelInheritence.csproj.CoreCompileInputs.cache
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\obj\Debug\MultilevelInheritence.exe
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\MultilevelInheritence\MultilevelInheritence\obj\Debug\MultilevelInheritence.pdb

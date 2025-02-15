@@ -12,7 +12,6 @@
         body {
             background-color: #F5F5F5;
             font-family: 'Poppins', sans-serif;
-
         }
         .form-container {
             background: #FFFFFF;
@@ -25,6 +24,8 @@
         }
         .form-group {
             margin-bottom: 15px;
+            display: flex;
+            align-items: center;
         }
         input, select {
             width: 100%;
@@ -58,7 +59,6 @@
             font-family: 'Poppins', sans-serif;
             margin-bottom: 20px;
         }
-        
         .login-link {
             text-align: center;
             margin-top: 15px;
@@ -72,7 +72,11 @@
         .login-link a:hover {
             text-decoration: underline;
         }
-  </style>
+        label {
+            margin-right: 10px;
+            display:block;
+        }
+    </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -95,10 +99,8 @@
             <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control" TextMode="Password" Placeholder="Confirm Password" />
         </div>
         <div class="form-group">
-            <asp:FileUpload ID="fileProfilePic" runat="server" CssClass="form-control" />
-        </div>
-        <div class="form-group">
-            <asp:FileUpload ID="fileResume" runat="server" CssClass="form-control" />
+            <label for="fileResume">Enter CV:</label>
+            <asp:FileUpload ID="fileResume" runat="server" CssClass="form-control"  />
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtSkills" runat="server" CssClass="form-control" Placeholder="Skills (e.g., Java, Python, Web Development)" />
