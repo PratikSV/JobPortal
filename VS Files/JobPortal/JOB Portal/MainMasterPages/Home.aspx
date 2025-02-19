@@ -167,7 +167,7 @@
         </div>
         
         <div class="cta-buttons">
-            <a href="PostJob.aspx" class="btn">Post a Job</a>
+            
             <a href="Jobs.aspx" class="btn">Explore Jobs</a>
         </div>
     </div>

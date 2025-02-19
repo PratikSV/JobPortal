@@ -58,10 +58,24 @@
     <!-- Meet Our Team -->
     <section class="section bg-light">
         <div class="container">
-            <h2 class="fw-bold">Meet Our Team</h2>
-            <p>Showcasing our dedicated professionals who make DreamJOB a success.</p>
-            <p>Vinayak Chavan : <a href="https://vinayak-chv.github.io/GitDemo/" target="_blank">Vinayak's Portfolio</a></p>
-            <p>Pratik Gaikwad : <a href="https://pratiksv.github.io/portfolio/" target="_blank">Pratik's Portfolio</a></p>
+            <h2 class="fw-bold top">Meet Our Team</h2>
+            <%--this is card team memeber card--%>
+            <div class="team-card" id="pratik-card">
+                <h3 class="team-name">Pratik Gaikwad</h3>
+                <p class="team-info">
+                    Pratik Gaikwad, 18, is a second-year BCA student at SK Somaiya College with expertise in Java, Python, C, HTML, CSS, and JavaScript. 
+                    With experience as a web development intern at Shadowfox, he is passionate about web development and entrepreneurship. 
+                    He started working on <strong>DremJob</strong> on <strong>February 3, 2025</strong> to create an innovative job portal.
+                </p>
+                <p class="team-portfolio">
+                    Portfolio: <a href="https://pratiksv.github.io/portfolio/" target="_blank">Pratik's Portfolio</a>
+                </p>
+            </div>
+            <div class="team-card">
+                <h3 class="fw-bold">Vinayak Chavan</h3>
+                <p class="team-info">Vinayak Chavan is a skilled web developer and collaborator on the **DremJob** project. He is dedicated to building an efficient and user-friendly job portal alongside Pratik.</p>
+                <p class="team-portfolio">Portfolio: <a href="https://vinayak-chv.github.io/GitDemo/" target="_blank">Vinayak's Portfolio</a></p>
+            </div>
         </div>
     </section>
         
