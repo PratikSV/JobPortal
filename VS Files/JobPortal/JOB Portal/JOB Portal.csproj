@@ -82,11 +82,13 @@
     <Content Include="EmployerMasterPages\Profile.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
+    <Content Include="MainMasterPages\CSS\About.css" />
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
     <Content Include="MainMasterPages\Icon\lock_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\Icon\person_FILL1_wght400_GRAD0_opsz24.svg" />
+    <Content Include="MainMasterPages\Images\Aboutpage\AboutpageBG.png" />
     <Content Include="MainMasterPages\Images\DreamJOBLogo.png" />
     <Content Include="MainMasterPages\Images\loginandSignup\loginandsignup.png" />
     <Content Include="MainMasterPages\profile.aspx" />
@@ -99,6 +101,7 @@
   <ItemGroup>
     <Compile Include="Admin pages\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin pages\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
@@ -224,8 +227,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin pages\Images\Aboutpage\" />
-    <Folder Include="MainMasterPages\Images\Aboutpage\" />
-    <Folder Include="MainMasterPages\JobSeekerMasterPage\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -31,7 +31,7 @@ namespace JOB_Portal.MainMasterPages
         private bool IsValidUser(string email, string password)
         {
             // Replace this with actual database authentication
-            return email == "admin@example.com" && password == "password123";
+            return email == "admin@exp.com" && password == "password123";
         }
     }
 }
