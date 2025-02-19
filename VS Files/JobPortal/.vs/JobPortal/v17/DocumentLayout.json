@@ -1,19 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\",
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|b:\\collage bca\\project\\web app\\jobportal\\vs files\\jobportal\\job portal\\admin pages\\dashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\admin pages\\dashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\job portal\\admin pages\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\admin pages\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-=======
-      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\employermasterpages\\postajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\employermasterpages\\postajob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
->>>>>>> d217f42e2eb1f1f8519511c2f5411675b7246f52
+      "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|c:\\users\\admin\\desktop\\job portal\\jobportal\\vs files\\jobportal\\job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,46 +18,36 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 0,
-=======
-          "SelectedChildIndex": 1,
->>>>>>> d217f42e2eb1f1f8519511c2f5411675b7246f52
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "Dashbord.aspx",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\Admin pages\\Dashbord.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\Admin pages\\Dashbord.aspx",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\Admin pages\\Dashbord.aspx",
-              "RelativeToolTip": "JOB Portal\\Admin pages\\Dashbord.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T07:51:48.861Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Admin.Master",
-              "DocumentMoniker": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\Admin pages\\Admin.Master",
-              "RelativeDocumentMoniker": "JOB Portal\\Admin pages\\Admin.Master",
-              "ToolTip": "B:\\Collage BCA\\PROJECT\\web app\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\Admin pages\\Admin.Master",
-              "RelativeToolTip": "JOB Portal\\Admin pages\\Admin.Master",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T07:40:05.375Z",
-=======
-              "Title": "Postajob.aspx",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Postajob.aspx",
-              "RelativeDocumentMoniker": "JOB Portal\\EmployerMasterPages\\Postajob.aspx",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\EmployerMasterPages\\Postajob.aspx",
-              "RelativeToolTip": "JOB Portal\\EmployerMasterPages\\Postajob.aspx",
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Contact.aspx",
+              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Contact.aspx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Contact.aspx",
+              "RelativeToolTip": "JOB Portal\\MainMasterPages\\Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T06:41:43.724Z",
->>>>>>> d217f42e2eb1f1f8519511c2f5411675b7246f52
+              "WhenOpened": "2025-02-19T11:32:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "profile.aspx",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\profile.aspx",
+              "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\profile.aspx",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Job Portal\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\profile.aspx",
+              "RelativeToolTip": "JOB Portal\\MainMasterPages\\profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-19T06:39:24.042Z",
               "EditorCaption": ""
             }
           ]

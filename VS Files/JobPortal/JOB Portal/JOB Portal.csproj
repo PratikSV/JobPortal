@@ -89,7 +89,7 @@
     <Content Include="MainMasterPages\Icon\person_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\Images\DreamJOBLogo.png" />
     <Content Include="MainMasterPages\Images\loginandSignup\loginandsignup.png" />
-    <Content Include="MainMasterPages\page.aspx" />
+    <Content Include="MainMasterPages\profile.aspx" />
     <Content Include="MainMasterPages\Login.aspx" />
     <Content Include="MainMasterPages\Signup.aspx" />
     <Content Include="Web.config" />
@@ -173,12 +173,12 @@
     <Compile Include="MainMasterPages\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MainMasterPages\page.aspx.cs">
-      <DependentUpon>page.aspx</DependentUpon>
+    <Compile Include="MainMasterPages\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MainMasterPages\page.aspx.designer.cs">
-      <DependentUpon>page.aspx</DependentUpon>
+    <Compile Include="MainMasterPages\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainMasterPages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
