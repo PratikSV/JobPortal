@@ -28,11 +28,11 @@ namespace JOB_Portal.MainMasterPages
 
             SqlConnection con = new SqlConnection(connectionString);
             
-                string query = "SELECT COUNT(*) FROM Loginemp WHERE email=@email AND password=@password"; // Fixed typo: 'emali' -> 'email'
+                string query = "SELECT COUNT(*) FROM Loginemp WHERE userID=@userID AND password=@password"; // Fixed typo: 'emali' -> 'email'
 
                 SqlCommand cmd = new SqlCommand(query, con);
-                cmd.Parameters.AddWithValue("@email", txtEmail.Text.Trim());
-                cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                cmd.Parameters.AddWithValue("@userID", userID.Text.Trim());
+                cmd.Parameters.AddWithValue("@password", password.Text);
 
                 con.Open();
                 int count = (int)cmd.ExecuteScalar();
@@ -40,28 +40,13 @@ namespace JOB_Portal.MainMasterPages
 
                 if (count > 0)
                 {
-                    Response.Redirect("Home.aspx"); // Redirect to dashboard after successful login
+                Session["New"] = userID.Text.Trim(); // Store email in session
+                Response.Redirect("Home.aspx"); // Redirect to dashboard after successful login
                 }
                 else
                 {
                     lblErrorMessage.Text = "Invalid email or password. Please try again.";
                 }
-            
-            //SqlConnection server connection string
-
-
-
-            string email = txtEmail.Text.Trim();
-            string password = txtPassword.Text;
-
-            if (count>0)
-            {
-                Response.Redirect("Dashboard.aspx"); // Redirect to dashboard after successful login
-            }
-            else
-            {
-                lblErrorMessage.Text = "Invalid email or password. Please try again.";
-            }
         }
     }
 }
