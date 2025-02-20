@@ -132,24 +132,6 @@ namespace JOB_Portal.MainMasterPages
         protected global::System.Web.UI.WebControls.TextBox txtYear;
 
         /// <summary>
-        /// txtLocations control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLocations;
-
-        /// <summary>
-        /// ddlEmploymentType control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEmploymentType;
-
-        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>

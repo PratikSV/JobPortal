@@ -59,6 +59,11 @@
             font-family: 'Poppins', sans-serif;
             margin-bottom: 20px;
         }
+        h3{
+            text-align:center;
+            font-family: 'Poppins',sans-serif;
+            margin-bottom:20px;
+        }
         .login-link {
             text-align: center;
             margin-top: 15px;
@@ -83,6 +88,7 @@
    <div class="background">
     <div class="form-container">
         <h2>Signup</h2>
+        <h3>Create a Profile</h3>
         <div class="form-group">
             <asp:TextBox ID="txtFullName" runat="server" CssClass="form-control" Placeholder="Full Name" />
         </div>
@@ -106,37 +112,27 @@
             <asp:TextBox ID="txtSkills" runat="server" CssClass="form-control" Placeholder="Skills (e.g., Java, Python, Web Development)" />
         </div>
         <div class="form-group">
-            <asp:DropDownList ID="ddlExperience" runat="server" CssClass="form-control">
+            <asp:DropDownList ID="ddlExperience" runat="server" CssClass="form-control" AutoPostBack="True">
+                <asp:ListItem Text="Select here" Value="Select here"></asp:ListItem>
                 <asp:ListItem Text="Fresher" Value="Fresher"></asp:ListItem>
                 <asp:ListItem Text="1-3 years" Value="1-3"></asp:ListItem>
                 <asp:ListItem Text="3+ years" Value="3+"></asp:ListItem>
             </asp:DropDownList>
         </div>
         <div class="form-group">
-            <asp:TextBox ID="txtCurrentJob" runat="server" CssClass="form-control" Placeholder="Current Job Role & Company (if any)" />
+            <asp:TextBox ID="txtCurrentJob" runat="server" CssClass="form-control" Placeholder="Current Job Role & Company (if any)" Visible="False" />
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtSalary" runat="server" CssClass="form-control" TextMode="Number" Placeholder="Expected Salary (Optional)" />
         </div>
         <div class="form-group">
-            <asp:TextBox ID="txtQualification" runat="server" CssClass="form-control" Placeholder="Highest Qualification" />
+            <asp:TextBox ID="txtQualification" runat="server" CssClass="form-control" Placeholder="Highest Qualification" Visible="True" />
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtUniversity" runat="server" CssClass="form-control" Placeholder="University/College Name" />
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtYear" runat="server" CssClass="form-control" TextMode="Number" Placeholder="Year of Passing" />
-        </div>
-        <div class="form-group">
-            <asp:TextBox ID="txtLocations" runat="server" CssClass="form-control" Placeholder="Preferred Job Locations" />
-        </div>
-        <div class="form-group">
-            <asp:DropDownList ID="ddlEmploymentType" runat="server" CssClass="form-control">
-                <asp:ListItem Text="Full-time" Value="Full-time"></asp:ListItem>
-                <asp:ListItem Text="Part-time" Value="Part-time"></asp:ListItem>
-                <asp:ListItem Text="Internship" Value="Internship"></asp:ListItem>
-                <asp:ListItem Text="Freelance" Value="Freelance"></asp:ListItem>
-            </asp:DropDownList>
         </div>
         <asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary" Text="Sign Up" />
         <div class="login-link">
