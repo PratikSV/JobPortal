@@ -115,4 +115,4 @@ C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\De
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.Up2Date
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.dll
 C:\Users\admin\Desktop\Job Portal\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.pdb
-B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.CopyComplete
+B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\obj\Debug\JOB Portal.csproj.Up2Date

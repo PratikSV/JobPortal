@@ -14,6 +14,16 @@ namespace JOB_Portal.MainMasterPages
 
         }
 
-       
+        protected void ddlExperience_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlExperience.SelectedValue== "Fresher") 
+            {
+                txtCurrentJob.Visible = false;
+            }
+            else
+            {
+                txtCurrentJob.Visible = true;
+            }
+        }
     }
 }

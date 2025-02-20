@@ -10,12 +10,12 @@
 
         <div class="input-group">
            
-            <asp:TextBox ID="txtEmail" runat="server" CssClass="input" placeholder="Email"></asp:TextBox>
+            <asp:TextBox ID="userID" runat="server" CssClass="input" placeholder="UserID"></asp:TextBox>
         </div>
 
         <div class="input-group">
             
-            <asp:TextBox ID="txtPassword" runat="server" CssClass="input" TextMode="Password" placeholder="Password"></asp:TextBox>
+            <asp:TextBox ID="password" runat="server" CssClass="input" TextMode="Password" placeholder="Password"></asp:TextBox>
         </div>
 
         <asp:Button ID="btnLogin" runat="server" CssClass="btn" Text="Login" OnClick="btnLogin_Click" />
