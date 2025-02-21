@@ -73,10 +73,6 @@
     <Content Include="Admin pages\Dashbord.aspx" />
     <Content Include="Admin pages\Images\DreamJOBLogo.png" />
     <Content Include="Admin pages\Images\loginandSignup\loginandsignup.png" />
-    <Content Include="App_Data\JobPortal.mdf" />
-    <Content Include="App_Data\JobPortal_log.ldf">
-      <DependentUpon>JobPortal.mdf</DependentUpon>
-    </Content>
     <Content Include="EmployerMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="EmployerMasterPages\Images\DreamJOBLogo.png" />
     <Content Include="EmployerMasterPages\Home.aspx" />
@@ -231,7 +227,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin pages\Images\Aboutpage\" />
-    <Folder Include="Database\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

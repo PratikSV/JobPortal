@@ -12,10 +12,7 @@ namespace JOB_Portal
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            if (Session["New"] != null)
-            {
-                Registerbtn.visible = false;
-            }
+  
         }
     }
 }

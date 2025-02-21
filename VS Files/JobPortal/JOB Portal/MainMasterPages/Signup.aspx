@@ -4,7 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h1>This is register page</h1>
 </asp:Content>--%>
-
 <%@ Page Title="Job Seeker Signup" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm3" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -81,6 +80,11 @@
             margin-right: 10px;
             display:block;
         }
+        .message {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
     </style>
 </asp:Content>
 
@@ -89,11 +93,15 @@
     <div class="form-container">
         <h2>Signup</h2>
         <h3>Create a Profile</h3>
+
+        <!-- ✅ Improved message display -->
+        <asp:Label ID="lblMessage" runat="server" CssClass="message" Visible="false" />
+
         <div class="form-group">
             <asp:TextBox ID="txtFullName" runat="server" CssClass="form-control" Placeholder="Full Name" />
         </div>
         <div class="form-group">
-            <asp:TextBox ID="UserID" runat="server" CssClass="form-control" Placeholder="UserID" />
+            <asp:TextBox ID="txtUserID" runat="server" CssClass="form-control" Placeholder="UserID" />
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" Placeholder="Email Address" />
@@ -107,34 +115,10 @@
         <div class="form-group">
             <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control" TextMode="Password" Placeholder="Confirm Password" />
         </div>
-        <%--<div class="form-group">
-            <label for="fileResume">Enter CV:</label>
-            <asp:FileUpload ID="fileResume" runat="server" CssClass="form-control"  />
-        </div>--%>
-        <%--<div class="form-group">
-            <asp:TextBox ID="txtSkills" runat="server" CssClass="form-control" Placeholder="Skills (e.g., Java, Python, Web Development)" />
-        </div>--%>
-       <%-- <div class="form-group">
-            <asp:DropDownList ID="ddlExperience" runat="server" CssClass="form-control" AutoPostBack="True">
-                <asp:ListItem Text="Select here" Value="Select here"></asp:ListItem>
-                <asp:ListItem Text="Fresher" Value="Fresher"></asp:ListItem>
-                <asp:ListItem Text="1-3 years" Value="1-3"></asp:ListItem>
-                <asp:ListItem Text="3+ years" Value="3+"></asp:ListItem>
-            </asp:DropDownList>
-        </div>--%>
-       <%-- <div class="form-group">
-            <asp:TextBox ID="txtCurrentJob" runat="server" CssClass="form-control" Placeholder="Current Job Role & Company (if any)" Visible="False" />
-        </div>--%>
-        <%--<div class="form-group">
-            <asp:TextBox ID="txtQualification" runat="server" CssClass="form-control" Placeholder="Highest Qualification" Visible="True" />
-        </div>--%>
-        <%--<div class="form-group">
-            <asp:TextBox ID="txtUniversity" runat="server" CssClass="form-control" Placeholder="University/College Name" />
-        </div>--%>
-        <%--<div class="form-group">
-            <asp:TextBox ID="txtYear" runat="server" CssClass="form-control" TextMode="Number" Placeholder="Year of Passing" />
-        </div>--%>
-        <asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary" Text="Sign Up" />
+        
+        <!-- ✅ Added OnClick event for correct function call -->
+        <asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary" Text="Sign Up" OnClick="Signup_Click" />
+
         <div class="login-link">
             <p>Already have an account? <a href="Login.aspx">Login here</a></p>
         </div>
