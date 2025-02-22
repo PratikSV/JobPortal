@@ -15,6 +15,15 @@ namespace JOB_Portal.MainMasterPages
     {
 
         /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
         /// txtFullName control.
         /// </summary>
         /// <remarks>
@@ -24,13 +33,13 @@ namespace JOB_Portal.MainMasterPages
         protected global::System.Web.UI.WebControls.TextBox txtFullName;
 
         /// <summary>
-        /// UserID control.
+        /// txtUserID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserID;
+        protected global::System.Web.UI.WebControls.TextBox txtUserID;
 
         /// <summary>
         /// txtEmail control.

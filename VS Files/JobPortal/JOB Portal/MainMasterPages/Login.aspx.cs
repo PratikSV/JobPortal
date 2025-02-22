@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Security.Cryptography;
 using System.Web.Services.Description;
 using System.Threading;
+using System.Web.Configuration;
 
 namespace JOB_Portal.MainMasterPages
 {
@@ -24,11 +25,11 @@ namespace JOB_Portal.MainMasterPages
         {
             //SqlConnection server connection string
 
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=B:\Collage BCA\PROJECT\web app\JobPortal\VS Files\JobPortal\JOB Portal\App_Data\JobPortal.mdf;Integrated Security=True";
+            string connectionString = WebConfigurationManager.ConnectionStrings["MyDBConnection"]?.ConnectionString;
 
             SqlConnection con = new SqlConnection(connectionString);
             
-                string query = "SELECT COUNT(*) FROM Loginemp WHERE userID=@userID AND password=@password"; // Fixed typo: 'emali' -> 'email'
+                string query = "SELECT COUNT(*) FROM UserProfile WHERE UserID=@userID AND Password=@password"; 
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@userID", userID.Text.Trim());
