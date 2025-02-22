@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="Profile" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="profile.aspx.cs" Inherits="JOB_Portal.MainMasterPages.Profile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<<<<<<< HEAD
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+=======
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
@@ -10,6 +13,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+>>>>>>> 42c9a939215ca8edd5d30d1530b0cbf55f2201ae
     <style>
         body {
             background-color: #F5E3C3; 
