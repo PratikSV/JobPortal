@@ -98,13 +98,17 @@
         </div>
 
         <div class="right-contact">
+            <form action="https://api.web3forms.com/submit" method="POST">
             <h2 class="form-head">Contact Form</h2>
+                <input type="hidden" name="access_key" value="d3932030-7493-4a24-a78f-3b3d64ea5ba9">
 
-            <asp:TextBox ID="txtName" runat="server" CssClass="input-field" Placeholder="Enter Name"></asp:TextBox>
-            <asp:TextBox ID="txtEmail" runat="server" CssClass="input-field" Placeholder="Enter Email Address" TextMode="Email"></asp:TextBox>
-            <asp:TextBox ID="txtMessage" runat="server" CssClass="input-field" Placeholder="Enter Message" TextMode="MultiLine" Rows="5"></asp:TextBox>
-            <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" />
+                <asp:TextBox ID="txtName" runat="server" CssClass="input-field" Placeholder="Enter Name"></asp:TextBox>
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="input-field" Placeholder="Enter Email Address" TextMode="Email"></asp:TextBox>
+                <asp:TextBox ID="txtMessage" runat="server" CssClass="input-field" Placeholder="Enter Message" TextMode="MultiLine" Rows="5"></asp:TextBox>
+                <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" />
+            </form>
         </div>
     </section>
 </body>
 </asp:Content>
+ 

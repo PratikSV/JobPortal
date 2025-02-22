@@ -41,12 +41,15 @@ namespace JOB_Portal.MainMasterPages
 
                 if (count > 0)
                 {
-                Session["New"] = userID.Text.Trim(); // Store email in session
-                Response.Redirect("Home.aspx"); // Redirect to dashboard after successful login
+                    // Store the UserID in session
+                    Session["UserID"] = userID.Text.Trim();
+
+                    // Redirect to home page
+                    Response.Redirect("Home.aspx");
                 }
                 else
                 {
-                    lblErrorMessage.Text = "Invalid email or password. Please try again.";
+                    lblErrorMessage.Text = "Invalid UserID or Password. Please try again.";
                 }
         }
     }
