@@ -6,8 +6,8 @@
 <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #fff4e6;
-            color: #333;
+            background-color: #F5E3C3;
+            color: #1A1A1A;
             text-align: center;
         }
         .section {
@@ -22,11 +22,11 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #ffe8cc !important;
-            color: #333;
+            background-color: #1E3A5F !important;
+            color: #ffffff;
         }
         .btn-primary {
-            background: linear-gradient(135deg, #ff8c00, #ff6000);
+            background: linear-gradient(135deg, #D97706, #C89F57);
             border: none;
             padding: 12px 25px;
             font-size: 18px;
@@ -36,7 +36,7 @@
             color: white;
         }
         .btn-primary:hover {
-            background: linear-gradient(135deg, #e07b00, #cc5500);
+            background: linear-gradient(135deg, #B65E04, #A07844);
             transform: scale(1.05);
         }
         .btn-primary:active {
@@ -45,14 +45,14 @@
         .icon {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #ff8c00;
+            color: #D97706;
         }
         a {
-            color: #ff8c00;
+            color: #C89F57;
             text-decoration: none;
         }
         a:hover {
-            color: #e07b00;
+            color: #A07844;
         }
         .custom-footer {
             background-color: #222;
@@ -61,10 +61,10 @@
             text-align: center;
         }
         .custom-footer a {
-            color: #ff8c00;
+            color: #D97706;
         }
         .custom-footer a:hover {
-            color: #e07b00;
+            color: #B65E04;
         }
         .step-card {
             background: white;
