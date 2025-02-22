@@ -1,15 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data.SqlClient;
-using System.Data;
-using System.Drawing;
-using System.Security.Cryptography;
-using System.Web.Services.Description;
-using System.Threading;
+using System.Web;
 using System.Web.Configuration;
 
 namespace JOB_Portal.MainMasterPages
@@ -18,18 +9,15 @@ namespace JOB_Portal.MainMasterPages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            //SqlConnection server connection string
-
             string connectionString = WebConfigurationManager.ConnectionStrings["MyDBConnection"]?.ConnectionString;
 
-            SqlConnection con = new SqlConnection(connectionString);
-            
-                string query = "SELECT COUNT(*) FROM UserProfile WHERE UserID=@userID AND Password=@password"; 
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = "SELECT COUNT(*) FROM UserProfile WHERE UserID=@userID AND Password=@password";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@userID", userID.Text.Trim());
@@ -51,6 +39,7 @@ namespace JOB_Portal.MainMasterPages
                 {
                     lblErrorMessage.Text = "Invalid UserID or Password. Please try again.";
                 }
+            }
         }
     }
 }
