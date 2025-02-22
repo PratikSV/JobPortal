@@ -11,7 +11,7 @@ namespace JOB_Portal.MainMasterPages
 {
 
 
-    public partial class page
+    public partial class Profile
     {
 
         /// <summary>
