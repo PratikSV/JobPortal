@@ -1,6 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="profile.aspx.cs" Inherits="JOB_Portal.MainMasterPages.page" %>
+﻿<%@ Page Title="Profile" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="profile.aspx.cs" Inherits="JOB_Portal.MainMasterPages.Profile" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
         body {
             background-color: #F5E3C3; 
@@ -25,9 +34,11 @@
             justify-content: space-around;
         }
         .profile-header img {
+            width: 150px;
+            height: 150px;
             object-fit: cover;
+            border-radius: 50%;
             border: 2px solid #666;
-            padding: 5rem 2rem;
         }
         .profile-header h2 {
             margin: 15px 0 5px;
@@ -66,7 +77,6 @@
             background: linear-gradient(135deg, #B65E04, #A07844);
             transform: scale(1.05);
         }
-
         .edit-btn:active {
             transform: scale(0.95);
         }
@@ -74,17 +84,20 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-     <div class="profile-container">
+    <div class="profile-container">
         <div class="profile-header">
-            <div class="left"><img src="profile-placeholder.jpg" alt="Profile Picture"></div>
+            <div class="left">
+                <img src="~/Images/profile-placeholder.jpg" alt="Profile Picture" runat="server">
+            </div>
 
             <div class="right">
                 <h2>John Doe</h2>
                 <p>Software Developer | Open to Work</p>
                 <p><i class="fas fa-map-marker-alt"></i> New York, USA</p>
-                <asp:Button ID="btnEditProfile" runat="server" CssClass="edit-btn" Text="Edit Profile" />
+                <asp:Button ID="btnEditProfile" runat="server" CssClass="edit-btn" Text="Edit Profile" OnClick="btnEditProfile_Click" />
             </div>
         </div>
+
         <div class="profile-content">
             <div class="profile-section">
                 <h3>About Me</h3>
