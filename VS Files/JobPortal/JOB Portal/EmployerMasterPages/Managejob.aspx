@@ -3,7 +3,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
        <style>
             body {
-                background-color: #fff4e6;
+                background-color: #F5E3C3;
                 font-family: 'Poppins', sans-serif;
             }
             .manage-jobs-container {
@@ -14,14 +14,14 @@
                 border-radius: 10px;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
                 margin-top: 5rem;
-                background-color: #f9d8b5;
+                background-color: #1E3A5F;
             }
             .page-title {
                 font-size: 28px;
                 font-weight: 600;
                 text-align: center;
                 margin-bottom: 25px;
-                color: #333;
+                color: whitesmoke;
             }
             .search-filter-container {
                 display: flex;
@@ -39,15 +39,16 @@
             }
             .filter-btn {
                 padding: 10px 20px;
-                background: #007bff;
+                background: linear-gradient(135deg, #2a4d7d, #4f7ebc);
                 color: white;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
-                transition: background 0.3s;
+                transition: all 0.3s ease-in-out;
             }
             .filter-btn:hover {
-                background: #0056b3;
+                background: linear-gradient(135deg, #4f7ebc, #81aef2);
+                transform: scale(1.05);
             }
             .table {
                 width: 100%;

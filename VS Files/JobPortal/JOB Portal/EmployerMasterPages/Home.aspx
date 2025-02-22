@@ -6,8 +6,8 @@
         body {
             text-align: center;
             font-family: 'Poppins', sans-serif;
-            color: #1a1a1a;
-            background-color: #fff4e6;
+            color: #1A1A1A;
+            background-color: #F5E3C3;
         }
 
         .intro {
@@ -17,18 +17,18 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background-color: #f9d8b5;
+            background-color: #1E3A5F;
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             margin: 5rem 0;
         }
 
         .intro h1 {
-            color: #1a1a1a;
+            color: whitesmoke;
         }
 
         .intro p {
-            color: #4f4f4f;
+            color: white;
             font-size: 1rem;
         }
 
@@ -40,14 +40,14 @@
 
         .cards {
             border: 1px solid transparent;
-            background-color: beige;   
+            background-color: #141e30;   
             border-radius: 10px;
             padding: 3rem;
         }
 
         .cards span {
             font-size: 2.5rem;
-            color: #333333;
+            color: #ffffff;
             font-weight: 700;
         }
 

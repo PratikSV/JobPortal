@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #fff4e6;
+            background-color: #F5E3C3;
             font-family: 'Poppins', sans-serif;
         }
 
@@ -14,8 +14,58 @@
         }
 
         .card-header {
-            color: #333333;
+            color: #333;
             font-weight: 500;
+        }
+
+        .preview {
+            background: linear-gradient(135deg, #4F86C6, #3A6FA1);
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .preview:hover {
+            background: linear-gradient(135deg, #3E72A3, #2D5C85);
+            transform: scale(1.05);
+        }
+
+
+        .submit {
+            background: linear-gradient(135deg, #D97706, #C06203);
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .submit:hover {
+            background: linear-gradient(135deg, #B65E04, #9F5002);
+            transform: scale(1.05);
+        }
+
+
+        .clear {
+            background: linear-gradient(135deg, #C0392B, #9B2C20);
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .clear:hover {
+            background: linear-gradient(135deg, #A52A1F, #7F2118);
+            transform: scale(1.05);
         }
     </style>
 
@@ -191,9 +241,9 @@
 
         <!-- Action Buttons -->
         <div class="mb-3 text-end">
-            <asp:Button ID="btnPreview" runat="server" Text="Preview" CssClass="btn btn-secondary me-2" />
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-primary" />
-            <asp:Button ID="btnClear" runat="server" Text="Clear" CssClass="btn btn-danger ms-2" CausesValidation="false" />
+            <asp:Button ID="btnPreview" class="preview" runat="server" Text="Preview" />
+            <asp:Button ID="btnSubmit" class="submit" runat="server" Text="Submit" />
+            <asp:Button ID="btnClear" class="clear" runat="server" Text="Clear" CausesValidation="false" />
         </div>
 
         <!-- Success Message -->

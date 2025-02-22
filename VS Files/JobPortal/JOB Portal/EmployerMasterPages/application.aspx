@@ -2,14 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <style>
     body {
-        background-color: #fff4e6;
+        background-color: #F5E3C3;
         font-family: 'Poppins', sans-serif;
     }
     .applications-container {
         max-width: 1000px;
         margin: auto;
         padding: 40px;
-        background: #f9d8b5;
+        background: #1E3A5F;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
@@ -18,7 +18,7 @@
         font-size: 28px;
         font-weight: 600;
         margin-bottom: 20px;
-        color: #333;
+        color: whitesmoke;
     }
     .applications-table table {
         width: 100%;
@@ -34,7 +34,7 @@
         text-align: left;
     }
     .applications-table th {
-        background: #ffaf87;
+        background: #3b587e;
         color: white;
         font-weight: 600;
     }
