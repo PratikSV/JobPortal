@@ -3,7 +3,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #fff4e6; 
+            background-color: #F5E3C3; 
             margin: 0;
             font-family: 'Poppins', sans-serif;
         }
@@ -17,7 +17,7 @@
             margin-top: 7rem;
         }
         .profile-header {
-            background-color: #333;
+            background-color: #1E3A5F;
             color: white;
             padding: 30px;
             text-align: center;
@@ -54,16 +54,21 @@
             color: #333;
         }
         .edit-btn {
-            background-color: #ff8c00;
+            background: linear-gradient(135deg, #D97706, #C89F57);
             color: white;
             padding: 8px 15px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: 0.3s;
+            transition: all 0.3s ease-in-out;
         }
         .edit-btn:hover {
-            background-color: #e67e00;
+            background: linear-gradient(135deg, #B65E04, #A07844);
+            transform: scale(1.05);
+        }
+
+        .edit-btn:active {
+            transform: scale(0.95);
         }
     </style>
 </asp:Content>

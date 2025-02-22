@@ -5,8 +5,8 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #fff4e6; 
-            color: #333;
+            background-color: #F5E3C3; 
+            color: #1A1A1A;
         }
 
         .contact {
@@ -15,7 +15,7 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 40px;
-            background: #ffffff;
+            background-color: #1E3A5F;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             margin-top: 50px;
@@ -28,8 +28,12 @@
         }
 
         .contact h2 {
-            color: #ff8c00; 
+            color: #ffffff; 
             margin-bottom: 1rem;
+        }
+
+        .contact .left-contact p {
+            color: #ffffff;
         }
 
         .left-contact, .right-contact {
@@ -47,28 +51,30 @@
             margin: 10px 0;
             border: 1px solid black; 
             border-radius: 5px;
-            background-color: #fff8f1; 
+            background-color: #F9E8D2; 
+            color: #333333
         }
 
         .input-field:focus {
-            border-color: #ff8c00; 
+            border-color: #C89F57; 
             outline: none;
             background-color: #ffe0b3; 
         }
 
         .submit {
-            background-color: #ff8c00; 
+            background: linear-gradient(135deg, #D97706, #C89F57);
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            transition: background-color 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
 
         .submit:hover {
-            background-color: #e07b00; 
+            background: linear-gradient(135deg, #B65E04, #A07844); 
+            transform: scale(1.05);
         }
 
         .submit:active {
@@ -88,7 +94,6 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-<body>
     <section class="contact">
         <div class="left-contact">
             <h2 class="contact-head">Basic Contact Info</h2>
@@ -109,6 +114,5 @@
             </form>
         </div>
     </section>
-</body>
 </asp:Content>
  
