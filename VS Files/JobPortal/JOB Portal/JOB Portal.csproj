@@ -78,7 +78,7 @@
     <Content Include="EmployerMasterPages\Home.aspx" />
     <Content Include="EmployerMasterPages\Postajob.aspx" />
     <Content Include="EmployerMasterPages\Managejob.aspx" />
-    <Content Include="EmployerMasterPages\Viewapplication.aspx" />
+    <Content Include="EmployerMasterPages\application.aspx" />
     <Content Include="EmployerMasterPages\Profile.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
@@ -141,12 +141,12 @@
     <Compile Include="EmployerMasterPages\Managejob.aspx.designer.cs">
       <DependentUpon>Managejob.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmployerMasterPages\Viewapplication.aspx.cs">
-      <DependentUpon>Viewapplication.aspx</DependentUpon>
+    <Compile Include="EmployerMasterPages\application.aspx.cs">
+      <DependentUpon>application.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmployerMasterPages\Viewapplication.aspx.designer.cs">
-      <DependentUpon>Viewapplication.aspx</DependentUpon>
+    <Compile Include="EmployerMasterPages\application.aspx.designer.cs">
+      <DependentUpon>application.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmployerMasterPages\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>

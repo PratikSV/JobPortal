@@ -39,7 +39,7 @@
         }
 
         .cards {
-            border: 1px solid bisque;
+            border: 1px solid transparent;
             background-color: beige;   
             border-radius: 10px;
             padding: 3rem;
