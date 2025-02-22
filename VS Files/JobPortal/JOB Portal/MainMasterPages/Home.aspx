@@ -50,7 +50,8 @@
             color: #333333;
         }
         .search-btn {
-            background-color: #FF9800;
+            background: linear-gradient(135deg, #D97706, #C89F57);
+            transition: all 0.3s ease-in-out;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
@@ -58,14 +59,16 @@
             cursor: pointer;
         }
         .search-btn:hover {
-            background-color: #E65100;
+            background: linear-gradient(135deg, #B65E04, #A07844);
+            transform: scale(1.05);
         }
         .cta-buttons {
             margin-top: 20px;
         }
         .cta-buttons .btn {
             padding: 12px 20px;
-            background-color: #FF9800;
+            background: linear-gradient(135deg, #D97706, #C89F57);
+            transition: all 0.3s ease-in-out;
             color: white;
             font-weight: bold;
             text-decoration: none;
@@ -74,7 +77,8 @@
             display: inline-block;
         }
         .cta-buttons .btn:hover {
-            background-color: #E65100;
+            background: linear-gradient(135deg, #B65E04, #A07844);
+            transform: scale(1.05);
         }
         .categories-section {
             text-align: center;
@@ -130,14 +134,16 @@
             display: inline-block;
             margin-top: 30px;
             padding: 12px 20px;
-            background-color: #FF9800;
+            background: linear-gradient(135deg, #D97706, #C89F57);
+            transition: all 0.3s ease-in-out;
             color: white;
             font-weight: bold;
             text-decoration: none;
             border-radius: 5px;
         }
         .browse-btn:hover {
-            background-color: #E65100;
+            background: linear-gradient(135deg, #B65E04, #A07844);
+            transform: scale(1.05);
         }
         .bg{
           background: rgba(255, 255, 255, 0.7); /* White background with 50% visibility */

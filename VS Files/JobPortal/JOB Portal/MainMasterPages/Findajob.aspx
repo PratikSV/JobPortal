@@ -9,6 +9,11 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        body {
+            background-color: #F5E3C3;
+            color: #1A1A1A;
+        }
+
         .layout-container {
             display: flex;
             margin-top: 120px;
@@ -50,7 +55,7 @@
         .job-box {
             display: flex;
             align-items: center;
-            background: white;
+            background-color: #1E3A5F;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 15px;
@@ -73,25 +78,31 @@
 
         .job-info p {
             margin: 5px 0;
-            color: #666;
+            color: white;
+        }
+
+        .head {
+            color: #FF9800;
+            font-weight: bold;
         }
 
         .employment-type {
             padding: 5px 10px;
             border-radius: 5px;
             border: 1px solid #FF9800;
-            color: #FF9800;
-            background: white;
+            color: white;
+            background: linear-gradient(135deg, #D97706, #C89F57);
+            transition: all 0.3s ease-in-out;
             text-align: center;
         }
 
         .employment-type:hover {
-            background: #FF9800;
-            color: white;
+            background: linear-gradient(135deg, #B65E04, #A07844);
+            transform: scale(1.05);
         }
         /*this class is not applicable*/
         .orang{
-            color: #FF9800;
+            color: white;
             font-weight: bold;
         }
     </style>
@@ -100,7 +111,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="layout-container">
         <div class="filter-panel">
-            <h2 class="orang">Filter Jobs</h2>
+            <h2 class="head">Filter Jobs</h2>
             <label>Job Category</label>
             <select>
                 <option>All Category</option>
@@ -138,7 +149,7 @@
             <div class="job-box">
                 <img src="images/logo1.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h3 class ="orang">Digital Marketer</h3>
+                    <h3 class="orang">Digital Marketer</h3>
                     <p>Creative Agency - Athens, Greece</p>
                     <p>$3500 - $4000</p>
                     <asp:Button ID="CreativeAgency" runat="server" CssClass="employment-type" Text="Full Time" />
@@ -147,7 +158,7 @@
             <div class="job-box">
                 <img src="images/logo2.png" class="company-logo" alt="Company Logo">
                 <div class="job-info">
-                    <h3 class ="orang">Software Developer</h3>
+                    <h3 class="orang">Software Developer</h3>
                     <p>Tech Company - New York, USA</p>
                     <p>$5000 - $6000</p>
                     <asp:Button ID="TechCompany" runat="server" CssClass="employment-type" Text="Remote" />
