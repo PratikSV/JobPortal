@@ -10,8 +10,8 @@
         }
 
         body {
-            background-color: #F5E3C3;
-            color: #1A1A1A;
+            background-color: #FFFFFF;
+            color: #333333;
         }
 
         .layout-container {
@@ -19,16 +19,18 @@
             margin-top: 120px;
         }
 
+        /* Left Filter Panel */
         .filter-panel {
             width: 25%;
             padding: 20px;
-            background: #f8f9fa;
+            background: #F5F5F5;
             border-right: 1px solid #ddd;
+            border-radius: 5px;
         }
 
         .filter-panel h4 {
             margin-bottom: 15px;
-            color: #333;
+            color: #333333;
             font-size: 20px;
             font-weight: bold;
         }
@@ -36,30 +38,36 @@
         .filter-panel label {
             display: block;
             margin-bottom: 10px;
-            color: #333;
+            color: #333333;
+            font-weight: 500;
         }
 
-        .filter-panel select {
+        .filter-panel select,
+        .filter-panel input[type="checkbox"] {
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
-            border: 1px solid #ddd;
+            border: 1px solid #FF9800;
             border-radius: 5px;
+            background: #FFFFFF;
+            color: #333333;
         }
 
+        /* Job Listings Section */
         .job-section {
             width: 75%;
             padding: 20px;
         }
 
+        /* Job Listing Box */
         .job-box {
             display: flex;
             align-items: center;
-            background-color: #1E3A5F;
+            background-color: #FFB74D;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 15px;
-            border: 1px solid #ddd;
+            border: 1px solid #FF9800;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -71,39 +79,36 @@
 
         .job-info h5 {
             margin: 0;
-            color: #333;
+            color: #333333;
             font-size: 18px;
             font-weight: bold;
         }
 
         .job-info p {
             margin: 5px 0;
-            color: white;
+            color: #333333;
         }
 
+        /* Headings */
         .head {
             color: #FF9800;
             font-weight: bold;
         }
 
+        /* Buttons */
         .employment-type {
             padding: 5px 10px;
             border-radius: 5px;
             border: 1px solid #FF9800;
             color: white;
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: linear-gradient(135deg, #FF9800, #E65100);
             transition: all 0.3s ease-in-out;
             text-align: center;
         }
 
         .employment-type:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: linear-gradient(135deg, #E65100, #B65E04);
             transform: scale(1.05);
-        }
-        /*this class is not applicable*/
-        .orang{
-            color: white;
-            font-weight: bold;
         }
     </style>
 </asp:Content>
