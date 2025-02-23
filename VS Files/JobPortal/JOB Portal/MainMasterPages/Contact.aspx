@@ -18,7 +18,7 @@
             background-color: white;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 150px auto; /* Equal top and bottom margins */
+            margin: 125px auto; /* Equal top and bottom margins */
             width: 90%;
             max-width: 1000px;
         }
