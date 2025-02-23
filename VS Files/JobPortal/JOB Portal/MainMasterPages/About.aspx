@@ -6,8 +6,8 @@
 <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #F5E3C3;
-            color: #1A1A1A;
+            background-color: #FFFFFF; /* White background */
+            color: #333333; /* Dark Gray for text */
             text-align: center;
         }
         .section {
@@ -17,16 +17,16 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background-color: #ffffff;
+            background-color: #FFFFFF; /* White */
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #1E3A5F !important;
-            color: #ffffff;
+            background-color: #FFB74D !important; /* Light Gray */
+            color: #333333;
         }
         .btn-primary {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background-color: #FF9800; /* Primary Orange */
             border: none;
             padding: 12px 25px;
             font-size: 18px;
@@ -36,7 +36,7 @@
             color: white;
         }
         .btn-primary:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background-color: #E65100; /* Dark Orange */
             transform: scale(1.05);
         }
         .btn-primary:active {
@@ -45,29 +45,29 @@
         .icon {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #D97706;
+            color: #FF9800; /* Primary Orange */
         }
         a {
-            color: #C89F57;
+            color: #FF9800; /* Primary Orange */
             text-decoration: none;
         }
         a:hover {
-            color: #A07844;
+            color: #E65100; /* Dark Orange */
         }
         .custom-footer {
-            background-color: #222;
+            background-color: #333333; /* Dark Gray */
             color: white;
             padding: 40px 0;
             text-align: center;
         }
         .custom-footer a {
-            color: #D97706;
+            color: #FF9800; /* Primary Orange */
         }
         .custom-footer a:hover {
-            color: #B65E04;
+            color: #E65100; /* Dark Orange */
         }
         .step-card {
-            background: white;
+            background: #FFFFFF;
             border-radius: 12px;
             padding: 20px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -77,10 +77,40 @@
         .step-card:hover {
             transform: scale(1.05);
         }
+        .container .team {
+            display: flex;
+            justify-content: space-between;
+        }
+        .team-section {
+            width: 50%;
+            background-color: #FFB74D; /* Light Orange */
+            padding: 2rem;
+            margin: 1rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+        }
+        .team-section h4 {
+            color: #333333; /* Dark Gray */
+        }
+        .team-section p {
+            color: white;
+        }
+        .linkedin-icon {
+            color: #0077b5; /* LinkedIn official color */
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .linkedin-icon:hover {
+            color: #005582; /* Darker shade for hover effect */
+            transform: scale(1.1);
+        }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <!-- Hero Section -->
     <section class="section text-center bg-light">
@@ -128,15 +158,14 @@
         </div>
     </section>
 
-    <!-- Meet Our Team -->
+        <!-- Partner Companies -->
     <section class="section bg-light">
         <div class="container">
-            <h2 class="fw-bold">Meet Our Team</h2>
-            <p>Showcasing our dedicated professionals who make DreamJOB a success.</p>
-            <p>Vinayak Chavan : <a href="https://vinayak-chv.github.io/GitDemo/" target="_blank">Vinayak's Portfolio</a></p>
-            <p>Pratik Gaikwad : <a href="https://pratiksv.github.io/portfolio/" target="_blank">Pratik's Portfolio</a></p>
+            <h2 class="fw-bold">Partner Companies</h2>
+            <p>Connecting top talent with leading companies.</p>
         </div>
     </section>
+    
 
     <!-- Testimonials -->
     <section class="section">
@@ -145,16 +174,9 @@
             <p>Hear from our happy job seekers and employers who found success through DreamJOB.</p>
         </div>
     </section>
-    <!-- Partner Companies -->
-    <section class="section bg-light">
-        <div class="container">
-            <h2 class="fw-bold">Partner Companies</h2>
-            <p>Connecting top talent with leading companies.</p>
-        </div>
-    </section>
-    
+
     <!-- Contact & Support -->
-    <section class="section">
+    <section class="section bg-light">
         <div class="container">
             <h2 class="fw-bold">Contact & Support</h2>
             <p>📧 Email: support@dreamjob.com</p>

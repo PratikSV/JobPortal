@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #F5E3C3; 
+            background-color: #FFF3E0; 
             color: #1A1A1A;
         }
 
@@ -15,25 +15,23 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 40px;
-            background-color: #1E3A5F;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 50px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin: 150px auto; /* Equal top and bottom margins */
             width: 90%;
             max-width: 1000px;
         }
 
         .contact h2 {
-            color: #ffffff; 
+            color: #F39C12;
+            text-shadow: 1px 1px 3px rgba(230, 126, 34, 0.3);
+            font-weight: 500;
             margin-bottom: 1rem;
         }
 
         .contact .left-contact p {
-            color: #ffffff;
+            color: black;
         }
 
         .left-contact, .right-contact {
@@ -52,7 +50,7 @@
             border: 1px solid black; 
             border-radius: 5px;
             background-color: #F9E8D2; 
-            color: #333333
+            color: #333333;
         }
 
         .input-field:focus {
@@ -62,7 +60,7 @@
         }
 
         .submit {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #FF9800;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -73,7 +71,7 @@
         }
 
         .submit:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844); 
+            background: #E65100; 
             transform: scale(1.05);
         }
 
@@ -104,7 +102,7 @@
 
         <div class="right-contact">
             <form action="https://api.web3forms.com/submit" method="POST">
-            <h2 class="form-head">Contact Form</h2>
+                <h2 class="form-head">Contact Form</h2>
                 <input type="hidden" name="access_key" value="d3932030-7493-4a24-a78f-3b3d64ea5ba9">
 
                 <asp:TextBox ID="txtName" runat="server" CssClass="input-field" Placeholder="Enter Name"></asp:TextBox>
@@ -115,4 +113,3 @@
         </div>
     </section>
 </asp:Content>
- 

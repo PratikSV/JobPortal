@@ -10,8 +10,8 @@
         }
 
         body {
-            background-color: #F5E3C3;
-            color: #1A1A1A;
+            background-color: #FFF3E0;
+            color: #333333;
         }
 
         .layout-container {
@@ -19,37 +19,52 @@
             margin-top: 120px;
         }
 
+        /* Left Filter Panel */
         .filter-panel {
             width: 25%;
             padding: 20px;
-            background: #f8f9fa;
+            background: #F5F5F5;
             border-right: 1px solid #ddd;
+<<<<<<< HEAD
             height: 100vh;
             position: sticky;
             top: 120px;
+=======
+            border-radius: 5px;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
         }
 
         .filter-panel h4 {
             margin-bottom: 15px;
-            color: #333;
+            color: #333333;
             font-size: 20px;
             font-weight: bold;
         }
 
         .filter-panel label {
             display: block;
+<<<<<<< HEAD
             margin: 10px 0;
             color: #333;
+=======
+            margin-bottom: 10px;
+            color: #333333;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
             font-weight: 500;
         }
 
         .filter-panel select,
+<<<<<<< HEAD
         .filter-panel .dropdown {
+=======
+        .filter-panel input[type="checkbox"] {
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
-            border: 1px solid #ddd;
+            border: 1px solid #FF9800;
             border-radius: 5px;
+<<<<<<< HEAD
             background-color: white;
         }
 
@@ -66,21 +81,35 @@
 
         .filter-panel .checkbox-group input[type="checkbox"] {
             margin-right: 10px;
+=======
+            background: #FFFFFF;
+            color: #333333;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
         }
 
+        /* Job Listings Section */
         .job-section {
             width: 75%;
             padding: 20px;
         }
 
+        /* Job Listing Box */
         .job-box {
             display: flex;
             align-items: center;
+<<<<<<< HEAD
             background-color: #1E3A5F;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
             border: 1px solid #ddd;
+=======
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 2px solid black;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s ease;
         }
@@ -103,18 +132,28 @@
 
         .job-info h3 {
             margin: 0;
+<<<<<<< HEAD
             color: #FF9800;
             font-size: 22px;
+=======
+            color: #333333;
+            font-size: 18px;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
             font-weight: bold;
             margin-bottom: 8px;
         }
 
         .job-info p {
             margin: 5px 0;
+<<<<<<< HEAD
             color: white;
             font-size: 16px;
+=======
+            color: #333333;
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
         }
 
+        /* Headings */
         .head {
             color: #FF9800;
             font-weight: bold;
@@ -122,12 +161,13 @@
             margin-bottom: 20px;
         }
 
+        /* Buttons */
         .employment-type {
             padding: 8px 15px;
             border-radius: 5px;
             border: 1px solid #FF9800;
             color: white;
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: linear-gradient(135deg, #FF9800, #E65100);
             transition: all 0.3s ease-in-out;
             text-align: center;
             margin-top: 10px;
@@ -136,10 +176,11 @@
         }
 
         .employment-type:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: linear-gradient(135deg, #E65100, #B65E04);
             transform: scale(1.05);
         }
 
+<<<<<<< HEAD
         .no-jobs-message {
             text-align: center;
             padding: 40px;
@@ -181,7 +222,14 @@
             .job-info h3 {
                 font-size: 20px;
             }
+=======
+        .orang {
+            color: #D35400;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(211, 84, 0, 0.3);
+>>>>>>> 3d42624892c2ba6844ef8e5d4ba6754c44a3dff3
         }
+
     </style>
 </asp:Content>
 

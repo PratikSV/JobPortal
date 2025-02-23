@@ -14,8 +14,9 @@
         }
 
         .card-header {
-            color: #333;
+            background-color: #3b587e;
             font-weight: 500;
+            color: white;
         }
 
         .preview {

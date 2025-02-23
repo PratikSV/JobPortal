@@ -50,7 +50,7 @@
             color: #333333;
         }
         .search-btn {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #F57C00;
             transition: all 0.3s ease-in-out;
             color: white;
             padding: 10px 20px;
@@ -59,7 +59,7 @@
             cursor: pointer;
         }
         .search-btn:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: #E65100;
             transform: scale(1.05);
         }
         .cta-buttons {
@@ -67,7 +67,7 @@
         }
         .cta-buttons .btn {
             padding: 12px 20px;
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #F57C00;
             transition: all 0.3s ease-in-out;
             color: white;
             font-weight: bold;
@@ -77,7 +77,7 @@
             display: inline-block;
         }
         .cta-buttons .btn:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: #E65100;
             transform: scale(1.05);
         }
         .categories-section {
@@ -134,7 +134,7 @@
             display: inline-block;
             margin-top: 30px;
             padding: 12px 20px;
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #F57C00;
             transition: all 0.3s ease-in-out;
             color: white;
             font-weight: bold;
@@ -142,7 +142,7 @@
             border-radius: 5px;
         }
         .browse-btn:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: #E65100;
             transform: scale(1.05);
         }
         .bg{
