@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master"
+    AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm1"
+    Async="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,7 +20,7 @@
             background-color: white;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 125px auto; /* Equal top and bottom margins */
+            margin: 125px auto;
             width: 90%;
             max-width: 1000px;
         }
@@ -101,15 +103,15 @@
         </div>
 
         <div class="right-contact">
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <h2 class="form-head">Contact Form</h2>
-                <input type="hidden" name="access_key" value="d3932030-7493-4a24-a78f-3b3d64ea5ba9">
+            <h2 class="form-head">Contact Form</h2>
 
-                <asp:TextBox ID="txtName" runat="server" CssClass="input-field" Placeholder="Enter Name"></asp:TextBox>
-                <asp:TextBox ID="txtEmail" runat="server" CssClass="input-field" Placeholder="Enter Email Address" TextMode="Email"></asp:TextBox>
-                <asp:TextBox ID="txtMessage" runat="server" CssClass="input-field" Placeholder="Enter Message" TextMode="MultiLine" Rows="5"></asp:TextBox>
-                <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" />
-            </form>
+            <asp:TextBox ID="txtName" runat="server" CssClass="input-field" Placeholder="Enter Name"></asp:TextBox>
+            <asp:TextBox ID="txtEmail" runat="server" CssClass="input-field" Placeholder="Enter Email Address" TextMode="Email"></asp:TextBox>
+            <asp:TextBox ID="txtMessage" runat="server" CssClass="input-field" Placeholder="Enter Message" TextMode="MultiLine" Rows="5"></asp:TextBox>
+            
+            <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" OnClick="btnSubmit_Click" />
+            
+            <asp:Label ID="lblMessage" runat="server" ForeColor="Green" Visible="false"></asp:Label>
         </div>
     </section>
 </asp:Content>
