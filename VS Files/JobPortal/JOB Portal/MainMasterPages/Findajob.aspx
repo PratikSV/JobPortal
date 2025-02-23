@@ -10,7 +10,7 @@
         }
 
         body {
-            background-color: #FFFFFF;
+            background-color: #FFF3E0;
             color: #333333;
         }
 
@@ -63,11 +63,11 @@
         .job-box {
             display: flex;
             align-items: center;
-            background-color: #FFB74D;
+            background-color: white;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 15px;
-            border: 1px solid #FF9800;
+            border: 2px solid black;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -110,6 +110,13 @@
             background: linear-gradient(135deg, #E65100, #B65E04);
             transform: scale(1.05);
         }
+
+        .orang {
+            color: #D35400;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(211, 84, 0, 0.3);
+        }
+
     </style>
 </asp:Content>
 
