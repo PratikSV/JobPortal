@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #F5E3C3; 
+            background-color: #FFF3E0; 
             color: #1A1A1A;
         }
 
@@ -15,25 +15,24 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 40px;
-            background-color: #1E3A5F;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 50px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            margin: 50px auto;
             width: 90%;
             max-width: 1000px;
+            margin-top: 6rem;
         }
 
         .contact h2 {
-            color: #ffffff; 
+            color: #F39C12;
+            text-shadow: 1px 1px 3px rgba(230, 126, 34, 0.3);
+            font-weight: 500;
             margin-bottom: 1rem;
         }
 
         .contact .left-contact p {
-            color: #ffffff;
+            color: black;
         }
 
         .left-contact, .right-contact {
@@ -62,7 +61,7 @@
         }
 
         .submit {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #FF9800;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -73,7 +72,7 @@
         }
 
         .submit:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844); 
+            background: #E65100; 
             transform: scale(1.05);
         }
 
