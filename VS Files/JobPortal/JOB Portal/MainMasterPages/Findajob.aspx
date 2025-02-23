@@ -10,7 +10,7 @@
         }
 
         body {
-            background-color: #F5E3C3;
+            background-color: #ddd;
             color: #1A1A1A;
         }
 
@@ -22,9 +22,9 @@
         .filter-panel {
             width: 25%;
             padding: 20px;
-            background: #f8f9fa;
-            border-right: 1px solid #ddd;
-            height: 100vh;
+            background: #F5F5F5;
+            border: 1px solid #ddd;
+            height: 75vh;
             position: sticky;
             top: 120px;
         }
@@ -76,7 +76,7 @@
         .job-box {
             display: flex;
             align-items: center;
-            background-color: #1E3A5F;
+            background-color: #333333;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
