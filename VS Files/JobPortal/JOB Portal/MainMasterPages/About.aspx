@@ -77,10 +77,40 @@
         .step-card:hover {
             transform: scale(1.05);
         }
+        .container .team {
+            display: flex;
+            justify-content: space-between;
+        }
+        .team-section{
+            width: 50%;
+            background-color: #141e30; 
+            padding: 2rem;
+            margin: 1rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+        }
+        .team-section h4 {
+            color: whitesmoke;   
+        }
+        .team-section p {
+            color: white;
+        }
+        .linkedin-icon {
+            color: #0077b5; /* LinkedIn official color */
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .linkedin-icon:hover {
+            color: #005582; /* Darker shade for hover effect */
+            transform: scale(1.1);
+        }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <!-- Hero Section -->
     <section class="section text-center bg-light">
@@ -132,9 +162,24 @@
     <section class="section bg-light">
         <div class="container">
             <h2 class="fw-bold">Meet Our Team</h2>
-            <p>Showcasing our dedicated professionals who make DreamJOB a success.</p>
-            <p>Vinayak Chavan : <a href="https://vinayak-chv.github.io/GitDemo/" target="_blank">Vinayak's Portfolio</a></p>
-            <p>Pratik Gaikwad : <a href="https://pratiksv.github.io/portfolio/" target="_blank">Pratik's Portfolio</a></p>
+            <%-- <p>Showcasing our dedicated professionals who make DreamJOB a success.</p> --%>
+            
+            <div class="team">
+                <div class="team-section">
+                    <h4>Vinayak Chavan</h4>
+                    <p>Aspiring web developer with a keen interest in creating dynamic and responsive websites. Passionate about UI/UX design and functionality.</p>
+                    <a href="https://www.linkedin.com/in/vinayak-chavan-282038320/" target="_blank" class="linkedin-icon">
+                    <i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+
+                <div class="team-section">
+                    <h4>Pratik Gaikwad</h4>
+                     <p>Tech enthusiast with a strong background in back-end development. Focused on building scalable and efficient web applications.</p>
+                     <a href="https://www.linkedin.com/in/pratik-gaikwad-88211b2b1/" target="_blank" class="linkedin-icon">
+                     <i class="fab fa-linkedin fa-2x"></i>
+                     </a>
+                </div>
+            </div>
         </div>
     </section>
 
