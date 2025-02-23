@@ -6,8 +6,8 @@
 <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #F5E3C3;
-            color: #1A1A1A;
+            background-color: #FFFFFF; /* White background */
+            color: #333333; /* Dark Gray for text */
             text-align: center;
         }
         .section {
@@ -17,16 +17,16 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background-color: #ffffff;
+            background-color: #FFFFFF; /* White */
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #1E3A5F !important;
-            color: #ffffff;
+            background-color: #FFB74D !important; /* Light Gray */
+            color: #333333;
         }
         .btn-primary {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background-color: #FF9800; /* Primary Orange */
             border: none;
             padding: 12px 25px;
             font-size: 18px;
@@ -36,7 +36,7 @@
             color: white;
         }
         .btn-primary:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background-color: #E65100; /* Dark Orange */
             transform: scale(1.05);
         }
         .btn-primary:active {
@@ -45,29 +45,29 @@
         .icon {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #D97706;
+            color: #FF9800; /* Primary Orange */
         }
         a {
-            color: #C89F57;
+            color: #FF9800; /* Primary Orange */
             text-decoration: none;
         }
         a:hover {
-            color: #A07844;
+            color: #E65100; /* Dark Orange */
         }
         .custom-footer {
-            background-color: #222;
+            background-color: #333333; /* Dark Gray */
             color: white;
             padding: 40px 0;
             text-align: center;
         }
         .custom-footer a {
-            color: #D97706;
+            color: #FF9800; /* Primary Orange */
         }
         .custom-footer a:hover {
-            color: #B65E04;
+            color: #E65100; /* Dark Orange */
         }
         .step-card {
-            background: white;
+            background: #FFFFFF;
             border-radius: 12px;
             padding: 20px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -81,16 +81,16 @@
             display: flex;
             justify-content: space-between;
         }
-        .team-section{
+        .team-section {
             width: 50%;
-            background-color: #141e30; 
+            background-color: #FFB74D; /* Light Orange */
             padding: 2rem;
             margin: 1rem;
             border: 1px solid transparent;
             border-radius: 7px;
         }
         .team-section h4 {
-            color: whitesmoke;   
+            color: #333333; /* Dark Gray */
         }
         .team-section p {
             color: white;
@@ -158,30 +158,14 @@
         </div>
     </section>
 
-    <!-- Meet Our Team -->
+        <!-- Partner Companies -->
     <section class="section bg-light">
         <div class="container">
-            <h2 class="fw-bold">Meet Our Team</h2>
-            <%-- <p>Showcasing our dedicated professionals who make DreamJOB a success.</p> --%>
-            
-            <div class="team">
-                <div class="team-section">
-                    <h4>Vinayak Chavan</h4>
-                    <p>Aspiring web developer with a keen interest in creating dynamic and responsive websites. Passionate about UI/UX design and functionality.</p>
-                    <a href="https://www.linkedin.com/in/vinayak-chavan-282038320/" target="_blank" class="linkedin-icon">
-                    <i class="fab fa-linkedin fa-2x"></i></a>
-                </div>
-
-                <div class="team-section">
-                    <h4>Pratik Gaikwad</h4>
-                     <p>Tech enthusiast with a strong background in back-end development. Focused on building scalable and efficient web applications.</p>
-                     <a href="https://www.linkedin.com/in/pratik-gaikwad-88211b2b1/" target="_blank" class="linkedin-icon">
-                     <i class="fab fa-linkedin fa-2x"></i>
-                     </a>
-                </div>
-            </div>
+            <h2 class="fw-bold">Partner Companies</h2>
+            <p>Connecting top talent with leading companies.</p>
         </div>
     </section>
+    
 
     <!-- Testimonials -->
     <section class="section">
@@ -190,16 +174,9 @@
             <p>Hear from our happy job seekers and employers who found success through DreamJOB.</p>
         </div>
     </section>
-    <!-- Partner Companies -->
-    <section class="section bg-light">
-        <div class="container">
-            <h2 class="fw-bold">Partner Companies</h2>
-            <p>Connecting top talent with leading companies.</p>
-        </div>
-    </section>
-    
+
     <!-- Contact & Support -->
-    <section class="section">
+    <section class="section bg-light">
         <div class="container">
             <h2 class="fw-bold">Contact & Support</h2>
             <p>📧 Email: support@dreamjob.com</p>
