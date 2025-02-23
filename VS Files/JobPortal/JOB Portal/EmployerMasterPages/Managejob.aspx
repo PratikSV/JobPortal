@@ -62,6 +62,10 @@
                 text-align: left;
                 border-bottom: 1px solid #ddd;
             }
+            .table th {
+                background-color: #3b587e;
+                color: white
+            }
             .status {
                 padding: 6px 12px;
                 border-radius: 20px;

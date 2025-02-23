@@ -1,9 +1,7 @@
 ﻿<%@ Page Title="Profile" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="profile.aspx.cs" Inherits="JOB_Portal.MainMasterPages.Profile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-=======
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
@@ -13,10 +11,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
->>>>>>> 42c9a939215ca8edd5d30d1530b0cbf55f2201ae
     <style>
         body {
-            background-color: #F5E3C3; 
+            background-color: #ffffff; 
             margin: 0;
             font-family: 'Poppins', sans-serif;
         }
@@ -27,10 +24,9 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             overflow: hidden;
-            margin-top: 7rem;
         }
         .profile-header {
-            background-color: #1E3A5F;
+            background-color: #333;
             color: white;
             padding: 30px;
             text-align: center;
@@ -38,17 +34,16 @@
             justify-content: space-around;
         }
         .profile-header img {
-            width: 150px;
-            height: 150px;
             object-fit: cover;
-            border-radius: 50%;
-            border: 2px solid #666;
+            border: 3px solid #666;
+            padding: 5rem 1.5rem;
         }
         .profile-header h2 {
             margin: 15px 0 5px;
             font-size: 1.75rem;
             font-weight: 600;
-            color: white;
+            color: #FF7800;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
         }
         .profile-header p {
             font-size: 16px;
@@ -69,7 +64,7 @@
             color: #333;
         }
         .edit-btn {
-            background: linear-gradient(135deg, #D97706, #C89F57);
+            background: #FF9800;
             color: white;
             padding: 8px 15px;
             border: none;
@@ -78,7 +73,7 @@
             transition: all 0.3s ease-in-out;
         }
         .edit-btn:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
+            background: #E65100;
             transform: scale(1.05);
         }
         .edit-btn:active {
