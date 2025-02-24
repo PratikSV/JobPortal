@@ -28,17 +28,13 @@
         .job-image {
             width: 160px;
             height: 160px;
-            background-color: #FFB74D;
             border-radius: 10px;
+            background-size: cover;
+            background-position: center;
         }
         .job-header-content {
             display: flex;
             flex-direction: column;
-        }
-        .job-details {
-            width: 60%;
-            margin-top: 20px;
-            padding: 15px;
         }
         .job-summary {
             width: 25%;
@@ -48,13 +44,6 @@
             border-radius: 5px;
             text-align: left;
             font-size: 14px;
-        }
-        .job-summary h3 {
-            text-align: center;
-            padding-bottom: 8px;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #E65100;
         }
         .btn-apply {
             display: inline-block;
@@ -71,23 +60,6 @@
         .btn-apply:hover {
             background-color: #FFB74D;
         }
-        h2, h3, p, ul, li {
-            font-family: 'Poppins', sans-serif;
-        }
-        h2 {
-            color: #E65100;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        h3 {
-            color: #E65100;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        p, ul, li {
-            color: #333333;
-            font-size: 16px;
-        }
     </style>
 </asp:Content>
 
@@ -95,45 +67,30 @@
     <div class="job-container">
         <div class="job-details">
             <div class="job-header">
-                <div class="job-image"></div>
+                <asp:Image ID="imgCompanyLogo" runat="server" CssClass="job-image" />
                 <div class="job-header-content">
-                    <h2>Software Engineer</h2>
-                    <p><strong>Google</strong></p>
-                    <p>Mountain View, USA</p>
-                    <p><strong>Salary:</strong> $100,000 - $120,000</p>
+                    <h2><asp:Label ID="lblJobTitle" runat="server"></asp:Label></h2>
+                    <p><strong><asp:Label ID="lblCompany" runat="server"></asp:Label></strong></p>
+                    <p><asp:Label ID="lblLocation" runat="server"></asp:Label></p>
+                    <p><strong>Salary:</strong> <asp:Label ID="lblSalary" runat="server"></asp:Label></p>
                 </div>
             </div>
             <h3>Job Description</h3>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            <h3>Required Knowledge, Skills, and Abilities</h3>
-            <ul>
-                <li>System Software Development</li>
-                <li>Mobile Application in iOS/Android/Tizen or other platform</li>
-                <li>Research and code, libraries, APIs and frameworks</li>
-                <li>Strong knowledge on software development life cycle</li>
-                <li>Strong problem-solving and debugging skills</li>
-            </ul>
+            <p><asp:Label ID="lblJobDescription" runat="server"></asp:Label></p>
+            <h3>Required Skills</h3>
+            <p><asp:Label ID="lblRequiredSkills" runat="server"></asp:Label></p>
             <h3>Education + Experience</h3>
-            <ul>
-                <li>3 or more years of professional design experience</li>
-                <li>Direct response email experience</li>
-                <li>Ecommerce website design experience</li>
-                <li>Familiarity with mobile and web apps preferred</li>
-                <li>Experience using Invision a plus</li>
-            </ul>
+            <p><asp:Label ID="lblEducationExperience" runat="server"></asp:Label></p>
         </div>
         <div class="job-summary">
             <h3>Job Overview</h3>
-            <p><strong>Posted date:</strong> 12 Aug 2019</p>
-            <p><strong>Location:</strong> New York</p>
-            <p><strong>Vacancy:</strong> 02</p>
-            <p><strong>Job nature:</strong> Full time</p>
-            <p><strong>Salary:</strong> $7,800 yearly</p>
-            <p><strong>Application date:</strong> 12 Sep 2020</p>
+            <p><strong>Posted date:</strong> <asp:Label ID="lblPostingDate" runat="server"></asp:Label></p>
+            <p><strong>Vacancies:</strong> <asp:Label ID="lblVacancies" runat="server"></asp:Label></p>
+            <p><strong>Job nature:</strong> <asp:Label ID="lblEmploymentType" runat="server"></asp:Label></p>
+            <p><strong>Application Deadline:</strong> <asp:Label ID="lblApplicationDeadline" runat="server"></asp:Label></p>
             <h3>Company Information</h3>
-            <p><strong>Company:</strong> Colorlib</p>
-            <p><strong>Web:</strong> colorlib.com</p>
-            <p><strong>Email:</strong> carrier.colorlib@gmail.com</p>
+            <p><strong>Website:</strong> <a href="#" id="companyWebsiteLink" runat="server" target="_blank"><asp:Label ID="lblCompanyWebsite" runat="server"></asp:Label></a></p>
+            <p><strong>Email:</strong> <asp:Label ID="lblCompanyEmail" runat="server"></asp:Label></p>
             <a href="apply.aspx" class="btn-apply">Apply Now</a>
         </div>
     </div>

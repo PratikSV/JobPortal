@@ -246,7 +246,7 @@
         <div class="job-section">
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
-                    <asp:Repeater ID="rptJobs" runat="server">
+                    <asp:Repeater ID="rptJobs" runat="server" OnItemCommand="rptJobs_ItemCommand">
                         <ItemTemplate>
                             <div class="job-box">
                                 <img src='<%# Eval("CompanyLogo") %>' class="company-logo" alt="Company Logo" />
@@ -257,7 +257,7 @@
                                         <p><%# Eval("Location") %></p>
                                         <p><%# Eval("Salary") %></p>
                                         <asp:Button runat="server" CssClass="employment-type" 
-                                            Text='<%# Eval("EmploymentType") %>' />
+                                            Text='<%# Eval("EmploymentType") %>' ID="submit" />
                                     </div>
                                 </div>
                             </div>

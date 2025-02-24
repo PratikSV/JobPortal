@@ -160,5 +160,12 @@ namespace JOB_Portal.MainMasterPages
                 }
             }
         }
+
+        protected void rptJobs_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            string jobId = e.CommandArgument.ToString();
+            Session["SelectedJobID"] = jobId; // Store JobID in session
+            Response.Redirect("Jobdetail.aspx");
+        }
     }
 }
