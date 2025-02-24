@@ -1,16 +1,13 @@
-﻿<%--<%@ Page Title="" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm3" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>This is register page</h1>
-</asp:Content>--%>
-<%@ Page Title="Job Seeker Signup" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm3" %>
+﻿<%@ Page Title="Job Seeker Signup" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="JOB_Portal.MainMasterPages.WebForm3" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         body {
-            background-color: #F5F5F5;
             font-family: 'Poppins', sans-serif;
+            background-image: url('images/loginandsignup/Signuppageimage.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
         .form-container {
             background: #FFFFFF;
@@ -84,6 +81,31 @@
             text-align: center;
             font-weight: bold;
             margin-bottom: 10px;
+        }
+         .custom-footer {
+            background-color: #333333; /* Dark background */
+            color: white; /* White text */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-bottom:0px;
+            width: 100%;
+            height: 100px; /* Set footer height to 100px */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+        .custom-footer a {
+            color: #FF9800; /* Orange color for links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .custom-footer a:hover {
+            color: #F57C00; /* Darker orange on hover */
+        }
+        .custom-footer p {
+            margin: 5px 0; /* Adjust spacing for footer text */
         }
     </style>
 </asp:Content>

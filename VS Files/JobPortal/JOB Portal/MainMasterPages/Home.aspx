@@ -3,16 +3,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- Added Mona Sans font -->
     <link href="css\HomeBG.css" rel="stylesheet" />
     <style>
-
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
+            height: 100%;
             overflow-x: hidden;
             color: #333333;
             font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
         }
         .hero-section {
             text-align: center;
@@ -25,29 +28,43 @@
             width: 100%;
         }
         .hero-heading {
-            font-size: 48px;
+            font-family: 'Mona Sans', sans-serif; /* Added Mona Sans font */
+            font-size: 64px; /* Increased size */
             font-weight: bold;
-            color: #333333;
+            color: #FF9800; /* Orange color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black shadow effect */
+            -webkit-text-stroke: 1px white; /* White text border */
+            text-stroke: 1px white;
         }
         .hero-subtext {
             font-size: 20px;
             margin-top: 10px;
             opacity: 0.9;
-            color: #333333;
+            color: white; /* White text color */
         }
         .search-container {
             margin-top: 20px;
             display: flex;
             justify-content: center;
             gap: 10px;
-        }
-        .search-container input, .search-container select {
+            border: 2px solid white; /* White border */
+            border-radius: 10px; /* Rounded corners */
             padding: 10px;
-            width: 250px;
+            box-shadow: 0 0 10px rgba(255, 152, 0, 0.7); /* Orange glow effect */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) /* Slight transparent background */
+        }
+        .search-container input {
+            padding: 10px;
+            width: 300px;
             border-radius: 5px;
-            border: 1px solid #FF9800;
-            background: #FFFFFF;
-            color: #333333;
+            border: none; /* Disabled input field border */
+            background: transparent; /* Transparent background */
+            color: white; /* White text color */
+            font-size: 16px;
+            outline: none; /* Remove outline on focus */
+        }
+        .search-container input::placeholder {
+            color: rgba(255, 255, 255); /* Placeholder text color */
         }
         .search-btn {
             background: #F57C00;
@@ -57,26 +74,10 @@
             border-radius: 5px;
             border: none;
             cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
         }
         .search-btn:hover {
-            background: #E65100;
-            transform: scale(1.05);
-        }
-        .cta-buttons {
-            margin-top: 20px;
-        }
-        .cta-buttons .btn {
-            padding: 12px 20px;
-            background: #F57C00;
-            transition: all 0.3s ease-in-out;
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 5px;
-            display: inline-block;
-        }
-        .cta-buttons .btn:hover {
             background: #E65100;
             transform: scale(1.05);
         }
@@ -100,7 +101,6 @@
             margin: auto;
         }
         .category-card {
-/*            border: 2px solid #FF9800;*/
             color: #333333;
             padding: 40px;
             border-radius: 10px;
@@ -145,36 +145,47 @@
             background: #E65100;
             transform: scale(1.05);
         }
-        .bg{
-          background: rgba(255, 255, 255, 0.7); /* White background with 50% visibility */
-          padding: 20px;
-          border-radius: 10px;  
+        .bg {
+            background: rgba(255, 255, 255, 0.7); /* White background with 50% visibility */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .custom-footer {
+            background-color: #333333; /* Dark background */
+            color: white; /* White text */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-bottom:0px;
+            width: 100%;
+            height: 100px; /* Set footer height to 100px */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+        .custom-footer a {
+            color: #FF9800; /* Orange color for links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .custom-footer a:hover {
+            color: #F57C00; /* Darker orange on hover */
+        }
+        .custom-footer p {
+            margin: 5px 0; /* Adjust spacing for footer text */
         }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="center">
-    </div>
     <div class="hero-section">
         <h1 class="hero-heading">Find Your Dream Job Today!</h1>
         <p class="hero-subtext">Explore top companies and apply for the best opportunities.</p>
         
         <div class="search-container">
-            <input type="text" placeholder="Job Title / Keywords" />
-            <input type="text" placeholder="Location" />
-            <select>
-                <option value="">Category</option>
-                <option value="IT">IT</option>
-                <option value="Finance">Finance</option>
-                <option value="Marketing">Marketing</option>
-            </select>
-            <button class="search-btn">Search</button>
-        </div>
-        
-        <div class="cta-buttons">
-            
-            <a href="Jobs.aspx" class="btn">Explore Jobs</a>
+            <input type="text" placeholder="Enter your Email" />
+            <a href="Signup.aspx" class="search-btn">Sign Up</a>
         </div>
     </div>
     

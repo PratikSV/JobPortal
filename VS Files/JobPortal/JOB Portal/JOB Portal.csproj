@@ -126,8 +126,6 @@
     <Content Include="MainMasterPages\Findajob.aspx" />
     <Content Include="MainMasterPages\CSS\HeaderandFooter.css" />
     <Content Include="MainMasterPages\Contact.aspx" />
-    <Content Include="MainMasterPages\Icon\lock_FILL1_wght400_GRAD0_opsz24.svg" />
-    <Content Include="MainMasterPages\Icon\person_FILL1_wght400_GRAD0_opsz24.svg" />
     <Content Include="MainMasterPages\images\Aboutpage\AboutpageBG.png" />
     <Content Include="MainMasterPages\images\accenture.png" />
     <Content Include="MainMasterPages\images\amazon.png" />
@@ -136,6 +134,7 @@
     <Content Include="MainMasterPages\images\google.png" />
     <Content Include="MainMasterPages\images\ibm.png" />
     <Content Include="MainMasterPages\images\infosys.png" />
+    <Content Include="MainMasterPages\images\loginandSignup\Signuppageimage.png" />
     <Content Include="MainMasterPages\images\loginandSignup\loginandsignup.png" />
     <Content Include="MainMasterPages\images\microsoft.png" />
     <Content Include="MainMasterPages\images\tcs.png" />

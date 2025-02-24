@@ -106,6 +106,31 @@
             color: #005582; /* Darker shade for hover effect */
             transform: scale(1.1);
         }
+        .custom-footer {
+    background-color: #333333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px; /* Pushes footer to the bottom */
+    margin-bottom:0px;
+    width: 100%;
+    height: 100px; /* Set footer height to 100px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+.custom-footer a {
+    color: #FF9800; /* Orange color for links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+.custom-footer a:hover {
+    color: #F57C00; /* Darker orange on hover */
+}
+.custom-footer p {
+    margin: 5px 0; /* Adjust spacing for footer text */
+}
     </style>
 </asp:Content>
 
@@ -183,14 +208,5 @@
             <p>📞 Phone: +91 XXXXX XXXXX</p>
             <p>📍 Address: (If applicable)</p>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="custom-footer">
-        <div class="container">
-            <p>Quick Links: <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">FAQs</a></p>
-            <p>Follow us: <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
-            <p>Subscribe to our Newsletter for job alerts & career tips!</p>
-        </div>
-    </footer>
+    </section>     
 </asp:Content>
