@@ -16,23 +16,23 @@ body {
 @-webkit-keyframes slidein {
     from {
         background-position: top;
-        background-size: 3000px;
+        background-size: 1500px; /* Zoom in further */
     }
 
     to {
-        background-position: -100px 0px;
-        background-size: 2750px;
+        background-position: -200px 0px; /* Adjust position to focus on clouds */
+        background-size: 1200px; /* Zoom in further */
     }
 }
 
 @keyframes slidein {
     from {
         background-position: top;
-        background-size: 3000px;
+        background-size: 1500px; /* Zoom in further */
     }
 
     to {
-        background-position: -100px 0px;
-        background-size: 2750px;
+        background-position: -200px 0px; /* Adjust position to focus on clouds */
+        background-size: 1200px; /* Zoom in further */
     }
 }
