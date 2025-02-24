@@ -76,11 +76,11 @@
         .job-box {
             display: flex;
             align-items: center;
-            background-color: #333333;
+            background-color: #F5F5F5;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
-            border: 1px solid #ddd;
+            border: 1px solid white;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s ease;
         }
@@ -90,8 +90,10 @@
         }
 
         .company-logo {
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border: 1px solid orange;
             margin-right: 20px;
             border-radius: 8px;
             object-fit: cover;
@@ -111,8 +113,20 @@
 
         .job-info p {
             margin: 5px 0;
-            color: white;
+            color: #333;
             font-size: 16px;
+        }
+
+        .job-details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .job-details p {
+            flex: 1;
+            margin: 0 10px;
         }
 
         .head {
@@ -150,31 +164,35 @@
             margin-top: 20px;
         }
 
+        /* Footer code */
         .custom-footer {
-    background-color: #333333; /* Dark background */
-    color: white; /* White text */
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px; /* Pushes footer to the bottom */
-    margin-bottom:0px;
-    width: 100%;
-    height: 100px; /* Set footer height to 100px */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-}
-.custom-footer a {
-    color: #FF9800; /* Orange color for links */
-    text-decoration: none;
-    margin: 0 10px;
-}
-.custom-footer a:hover {
-    color: #F57C00; /* Darker orange on hover */
-}
-.custom-footer p {
-    margin: 5px 0; /* Adjust spacing for footer text */
-}
+            background-color: #333333; /* Dark background */
+            color: white; /* White text */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-bottom: 0px;
+            width: 100%;
+            height: 100px; /* Set footer height to 100px */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+
+        .custom-footer a {
+            color: #FF9800; /* Orange color for links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .custom-footer a:hover {
+            color: #F57C00; /* Darker orange on hover */
+        }
+
+        .custom-footer p {
+            margin: 5px 0; /* Adjust spacing for footer text */
+        }
     </style>
 </asp:Content>
 
@@ -195,7 +213,7 @@
                 AutoPostBack="true" OnSelectedIndexChanged="btnFilter_Click">
             </asp:DropDownList>
             
-                 <label for="ddlExperience">Experience Level</label>
+            <label for="ddlExperience">Experience Level</label>
             <asp:DropDownList ID="ddlExperience" runat="server" CssClass="dropdown"
                 AutoPostBack="true" OnSelectedIndexChanged="btnFilter_Click">
             </asp:DropDownList>
@@ -234,10 +252,13 @@
                                 <img src='<%# Eval("CompanyLogo") %>' class="company-logo" alt="Company Logo" />
                                 <div class="job-info">
                                     <h3><%# Eval("JobTitle") %></h3>
-                                    <p><%# Eval("Company") %> - <%# Eval("Location") %></p>
-                                    <p><%# Eval("Salary") %></p>
-                                    <asp:Button runat="server" CssClass="employment-type" 
-                                        Text='<%# Eval("EmploymentType") %>' />
+                                    <div class="job-details">
+                                        <p><%# Eval("Company") %></p>
+                                        <p><%# Eval("Location") %></p>
+                                        <p><%# Eval("Salary") %></p>
+                                        <asp:Button runat="server" CssClass="employment-type" 
+                                            Text='<%# Eval("EmploymentType") %>' />
+                                    </div>
                                 </div>
                             </div>
                         </ItemTemplate>

@@ -140,6 +140,7 @@
     <Content Include="MainMasterPages\images\tcs.png" />
     <Content Include="MainMasterPages\images\tesla.png" />
     <Content Include="MainMasterPages\images\wipro.png" />
+    <Content Include="MainMasterPages\Jobdetail.aspx" />
     <Content Include="MainMasterPages\profile.aspx" />
     <Content Include="MainMasterPages\Login.aspx" />
     <Content Include="MainMasterPages\Signup.aspx" />
@@ -217,6 +218,13 @@
     </Compile>
     <Compile Include="MainMasterPages\Findajob.aspx.designer.cs">
       <DependentUpon>Findajob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMasterPages\Jobdetail.aspx.cs">
+      <DependentUpon>Jobdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMasterPages\Jobdetail.aspx.designer.cs">
+      <DependentUpon>Jobdetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainMasterPages\Main_Master_page.Master.cs">
       <DependentUpon>Main_Master_page.Master</DependentUpon>
