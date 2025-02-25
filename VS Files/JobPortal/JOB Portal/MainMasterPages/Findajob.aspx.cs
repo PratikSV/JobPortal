@@ -100,7 +100,7 @@ namespace JOB_Portal.MainMasterPages
             string connString = WebConfigurationManager.ConnectionStrings["MyDBConnection"]?.ConnectionString;
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                string query = "SELECT JobTitle, Company, Location, Salary, EmploymentType, CompanyLogo FROM Jobs WHERE 1=1";
+                string query = "SELECT JobID, JobTitle, Company, Location, Salary, EmploymentType, CompanyLogo FROM Jobs WHERE 1=1";
                 List<SqlParameter> parameters = new List<SqlParameter>();
 
                 if (!string.IsNullOrEmpty(ddlCategory.SelectedValue))
@@ -161,11 +161,71 @@ namespace JOB_Portal.MainMasterPages
             }
         }
 
+
+        // Add this function to fetch company data from the database
         protected void rptJobs_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            string jobId = e.CommandArgument.ToString();
-            Session["SelectedJobID"] = jobId; // Store JobID in session
+            try
+            {
+                // Get the button that was clicked
+                Button btn = e.CommandSource as Button;
+                if (btn != null && !string.IsNullOrEmpty(btn.CommandArgument))
+                {
+                    string jobId = btn.CommandArgument;
+
+                    // Store the JobID in session
+                    Session["SelectedJobID"] = jobId;
+
+                    // Get company data
+                    DataTable companyData = GetCompanyDataByJobId(jobId);
+
+                    if (companyData != null && companyData.Rows.Count > 0)
+                    {
+                        Session["CompanyData"] = companyData;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error in rptJobs_ItemCommand: {ex.Message}");
+            }
+
+            // Keep your existing redirect
             Response.Redirect("Jobdetail.aspx");
         }
+
+        private DataTable GetCompanyDataByJobId(string jobId)
+        {
+            DataTable companyData = new DataTable();
+            string connString = WebConfigurationManager.ConnectionStrings["MyDBConnection"]?.ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                // Adjust this query based on your actual database schema
+                string query = @"SELECT C.* 
+                        FROM Companies C
+                        INNER JOIN Jobs J ON C.CompanyID = J.CompanyID 
+                        WHERE J.JobID = @JobID";
+
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@JobID", jobId);
+                        SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        da.Fill(companyData);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Error fetching company data: {ex.Message}");
+                }
+            }
+
+            return companyData;
+        }
+
+        
     }
 }

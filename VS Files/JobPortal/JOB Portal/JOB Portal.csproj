@@ -119,6 +119,7 @@
     <Content Include="EmployerMasterPages\Managejob.aspx" />
     <Content Include="EmployerMasterPages\application.aspx" />
     <Content Include="EmployerMasterPages\Profile.aspx" />
+    <Content Include="MainMasterPages\apply.aspx" />
     <Content Include="MainMasterPages\CSS\HomeBG.css" />
     <Content Include="MainMasterPages\CSS\LoginandSignup.css" />
     <Content Include="MainMasterPages\CSS\About.css" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="EmployerMasterPages\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMasterPages\apply.aspx.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMasterPages\apply.aspx.designer.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainMasterPages\Emailsend.aspx.cs">
       <DependentUpon>Emailsend.aspx</DependentUpon>

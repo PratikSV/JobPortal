@@ -29,44 +29,44 @@
             top: 120px;
         }
 
-        .filter-panel h4 {
-            margin-bottom: 15px;
-            color: #333;
-            font-size: 20px;
-            font-weight: bold;
-        }
+            .filter-panel h4 {
+                margin-bottom: 15px;
+                color: #333;
+                font-size: 20px;
+                font-weight: bold;
+            }
 
-        .filter-panel label {
-            display: block;
-            margin: 10px 0;
-            color: #333;
-            font-weight: 500;
-        }
+            .filter-panel label {
+                display: block;
+                margin: 10px 0;
+                color: #333;
+                font-weight: 500;
+            }
 
-        .filter-panel select,
-        .filter-panel .dropdown {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: white;
-        }
+            .filter-panel select,
+            .filter-panel .dropdown {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: white;
+            }
 
-        .filter-panel .checkbox-group {
-            margin: 5px 0;
-        }
+            .filter-panel .checkbox-group {
+                margin: 5px 0;
+            }
 
-        .filter-panel .checkbox-group label {
-            display: flex;
-            align-items: center;
-            margin: 8px 0;
-            cursor: pointer;
-        }
+                .filter-panel .checkbox-group label {
+                    display: flex;
+                    align-items: center;
+                    margin: 8px 0;
+                    cursor: pointer;
+                }
 
-        .filter-panel .checkbox-group input[type="checkbox"] {
-            margin-right: 10px;
-        }
+                .filter-panel .checkbox-group input[type="checkbox"] {
+                    margin-right: 10px;
+                }
 
         .job-section {
             width: 75%;
@@ -85,9 +85,9 @@
             transition: transform 0.2s ease;
         }
 
-        .job-box:hover {
-            transform: translateY(-5px);
-        }
+            .job-box:hover {
+                transform: translateY(-5px);
+            }
 
         .company-logo {
             width: 100px;
@@ -103,19 +103,19 @@
             flex-grow: 1;
         }
 
-        .job-info h3 {
-            margin: 0;
-            color: #FF9800;
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
+            .job-info h3 {
+                margin: 0;
+                color: #FF9800;
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
 
-        .job-info p {
-            margin: 5px 0;
-            color: #333;
-            font-size: 16px;
-        }
+            .job-info p {
+                margin: 5px 0;
+                color: #333;
+                font-size: 16px;
+            }
 
         .job-details {
             display: flex;
@@ -124,10 +124,10 @@
             width: 100%;
         }
 
-        .job-details p {
-            flex: 1;
-            margin: 0 10px;
-        }
+            .job-details p {
+                flex: 1;
+                margin: 0 10px;
+            }
 
         .head {
             color: #FF9800;
@@ -149,10 +149,10 @@
             font-weight: 500;
         }
 
-        .employment-type:hover {
-            background: linear-gradient(135deg, #B65E04, #A07844);
-            transform: scale(1.05);
-        }
+            .employment-type:hover {
+                background: linear-gradient(135deg, #B65E04, #A07844);
+                transform: scale(1.05);
+            }
 
         .no-jobs-message {
             text-align: center;
@@ -180,69 +180,69 @@
             align-items: center; /* Center content horizontally */
         }
 
-        .custom-footer a {
-            color: #FF9800; /* Orange color for links */
-            text-decoration: none;
-            margin: 0 10px;
-        }
+            .custom-footer a {
+                color: #FF9800; /* Orange color for links */
+                text-decoration: none;
+                margin: 0 10px;
+            }
 
-        .custom-footer a:hover {
-            color: #F57C00; /* Darker orange on hover */
-        }
+                .custom-footer a:hover {
+                    color: #F57C00; /* Darker orange on hover */
+                }
 
-        .custom-footer p {
-            margin: 5px 0; /* Adjust spacing for footer text */
-        }
+            .custom-footer p {
+                margin: 5px 0; /* Adjust spacing for footer text */
+            }
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-    
+
     <div class="layout-container">
         <div class="filter-panel">
             <h2 class="head">Filter Jobs</h2>
-            
+
             <label for="ddlCategory">Job Category</label>
-            <asp:DropDownList ID="ddlCategory" runat="server" CssClass="dropdown" 
+            <asp:DropDownList ID="ddlCategory" runat="server" CssClass="dropdown"
                 AutoPostBack="true" OnSelectedIndexChanged="btnFilter_Click">
             </asp:DropDownList>
-            
+
             <label for="ddlLocation">Job Location</label>
             <asp:DropDownList ID="ddlLocation" runat="server" CssClass="dropdown"
                 AutoPostBack="true" OnSelectedIndexChanged="btnFilter_Click">
             </asp:DropDownList>
-            
+
             <label for="ddlExperience">Experience Level</label>
             <asp:DropDownList ID="ddlExperience" runat="server" CssClass="dropdown"
                 AutoPostBack="true" OnSelectedIndexChanged="btnFilter_Click">
             </asp:DropDownList>
-            
+
             <label>Employment Type</label>
             <div class="checkbox-group">
                 <label>
-                    <asp:CheckBox ID="chkFullTime" runat="server" AutoPostBack="true" 
+                    <asp:CheckBox ID="chkFullTime" runat="server" AutoPostBack="true"
                         OnCheckedChanged="btnFilter_Click" />
                     Full Time
                 </label>
                 <label>
-                    <asp:CheckBox ID="chkPartTime" runat="server" AutoPostBack="true" 
+                    <asp:CheckBox ID="chkPartTime" runat="server" AutoPostBack="true"
                         OnCheckedChanged="btnFilter_Click" />
                     Part Time
                 </label>
                 <label>
-                    <asp:CheckBox ID="chkRemote" runat="server" AutoPostBack="true" 
+                    <asp:CheckBox ID="chkRemote" runat="server" AutoPostBack="true"
                         OnCheckedChanged="btnFilter_Click" />
                     Remote
                 </label>
                 <label>
-                    <asp:CheckBox ID="chkFreelance" runat="server" AutoPostBack="true" 
+                    <asp:CheckBox ID="chkFreelance" runat="server" AutoPostBack="true"
                         OnCheckedChanged="btnFilter_Click" />
                     Freelance
                 </label>
             </div>
         </div>
-        
+
         <div class="job-section">
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
@@ -256,14 +256,15 @@
                                         <p><%# Eval("Company") %></p>
                                         <p><%# Eval("Location") %></p>
                                         <p><%# Eval("Salary") %></p>
-                                        <asp:Button runat="server" CssClass="employment-type" 
-                                            Text='<%# Eval("EmploymentType") %>' ID="submit" />
+                                        <asp:Button runat="server" CssClass="employment-type"
+                                            Text='<%# Eval("EmploymentType") %>' ID="submit"
+                                            CommandArgument='<%# Eval("JobID") %>' />
                                     </div>
                                 </div>
                             </div>
                         </ItemTemplate>
                     </asp:Repeater>
-                    
+
                     <asp:Panel ID="NoJobsPanel" runat="server" CssClass="no-jobs-message" Visible="false">
                         <h3>No jobs found matching your criteria</h3>
                         <p>Try adjusting your filters to see more results</p>
