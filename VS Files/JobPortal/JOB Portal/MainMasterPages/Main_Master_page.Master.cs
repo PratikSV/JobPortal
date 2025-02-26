@@ -16,7 +16,8 @@ namespace JOB_Portal
                     Loginbtn.Visible = false;  // Hide Login button
                     Registerbtn.Visible = false;  // Hide Register button
                     Logout.Visible = true;  // Show Logout button
-                    lblUserID.Text = "Welcome, " + Session["UserID"].ToString(); // Display UserID
+                    lblUserID.Text = "<spam>Welcome,</spam> <br><spam>" + Session["UserID"].ToString()+"</spam>"; // Display UserID
+                    lblUserID.Font.Size = 10;
                     lblUserID.Visible = true;
                 }
                 else

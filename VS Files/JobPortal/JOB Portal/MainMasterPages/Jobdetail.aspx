@@ -76,6 +76,35 @@
             font-size: 20px;
             margin: 10px auto;
         }
+         /* Footer code */
+ .custom-footer {
+     background-color: #333333; /* Dark background */
+     color: white; /* White text */
+     text-align: center;
+     padding: 20px 0;
+     margin-top: 50px; /* Pushes footer to the bottom */
+     margin-bottom: 0px;
+     width: 100%;
+     height: 100px; /* Set footer height to 100px */
+     display: flex;
+     flex-direction: column;
+     justify-content: center; /* Center content vertically */
+     align-items: center; /* Center content horizontally */
+ }
+
+     .custom-footer a {
+         color: #FF9800; /* Orange color for links */
+         text-decoration: none;
+         margin: 0 10px;
+     }
+
+         .custom-footer a:hover {
+             color: #F57C00; /* Darker orange on hover */
+         }
+
+     .custom-footer p {
+         margin: 5px 0; /* Adjust spacing for footer text */
+     }
     </style>
 </asp:Content>
 
