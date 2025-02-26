@@ -46,13 +46,13 @@ namespace JOB_Portal.MainMasterPages
                     }
                     catch (Exception ex)
                     {
-                        // Log the error appropriately
+                        
                         System.Diagnostics.Debug.WriteLine($"Error loading categories: {ex.Message}");
                     }
                 }
             }
 
-            // Initialize Location dropdown
+            
             ddlLocation.Items.Clear();
             ddlLocation.Items.Add(new ListItem("Anywhere", ""));
             using (SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["MyDBConnection"].ConnectionString))
@@ -74,13 +74,13 @@ namespace JOB_Portal.MainMasterPages
                     }
                     catch (Exception ex)
                     {
-                        // Log the error appropriately
+                        
                         System.Diagnostics.Debug.WriteLine($"Error loading locations: {ex.Message}");
                     }
                 }
             }
 
-            // Initialize Experience dropdown
+            
             ddlExperience.Items.Clear();
             ddlExperience.Items.Add(new ListItem("All Experience", ""));
             ddlExperience.Items.Add(new ListItem("1-2 years", "1-2"));
@@ -148,35 +148,34 @@ namespace JOB_Portal.MainMasterPages
                         rptJobs.DataSource = dt;
                         rptJobs.DataBind();
 
-                        // Show/hide the no results message
+                        
                         NoJobsPanel.Visible = (dt.Rows.Count == 0);
                     }
                 }
                 catch (Exception ex)
                 {
-                    // Log the error appropriately
+                    
                     System.Diagnostics.Debug.WriteLine($"Error loading jobs: {ex.Message}");
-                    // You might want to show an error message to the user
+                    
                 }
             }
         }
 
 
-        // Add this function to fetch company data from the database
+        
         protected void rptJobs_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
             try
             {
-                // Get the button that was clicked
+                
                 Button btn = e.CommandSource as Button;
                 if (btn != null && !string.IsNullOrEmpty(btn.CommandArgument))
                 {
                     string jobId = btn.CommandArgument;
 
-                    // Store the JobID in session
                     Session["SelectedJobID"] = jobId;
 
-                    // Get company data
+                    
                     DataTable companyData = GetCompanyDataByJobId(jobId);
 
                     if (companyData != null && companyData.Rows.Count > 0)
@@ -190,7 +189,7 @@ namespace JOB_Portal.MainMasterPages
                 System.Diagnostics.Debug.WriteLine($"Error in rptJobs_ItemCommand: {ex.Message}");
             }
 
-            // Keep your existing redirect
+           
             Response.Redirect("Jobdetail.aspx");
         }
 

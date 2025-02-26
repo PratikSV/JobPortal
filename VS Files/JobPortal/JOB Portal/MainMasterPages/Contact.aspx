@@ -134,7 +134,7 @@
             <asp:TextBox ID="txtEmail" runat="server" CssClass="input-field" Placeholder="Enter Email Address" TextMode="Email"></asp:TextBox>
             <asp:TextBox ID="txtMessage" runat="server" CssClass="input-field" Placeholder="Enter Message" TextMode="MultiLine" Rows="5"></asp:TextBox>
             
-            <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="Submit" OnClick="btnSubmit_Click" />
+            <asp:Button ID="btnSubmit" runat="server" CssClass="submit" Text="SEND" OnClick="btnSubmit_Click" />
             
             <asp:Label ID="lblMessage" runat="server" ForeColor="Green" Visible="false"></asp:Label>
         </div>

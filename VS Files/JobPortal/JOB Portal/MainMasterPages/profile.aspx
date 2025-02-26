@@ -17,12 +17,12 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        /* Login Message Styling */
+        
         .login-message-container {
             max-width: 600px;
             margin: 100px auto;
-            background-color: #222; /* Dark Gray/Black */
-            color: #fff; /* White */
+            background-color: #222; 
+            color: #fff;
             text-align: center;
             padding: 40px;
             border-radius: 10px;
@@ -33,7 +33,7 @@
             font-weight: 600;
         }
         .login-btn {
-            background: #FF8800; /* Orange */
+            background: #FF8800;
             color: white;
             padding: 10px 20px;
             font-size: 16px;
@@ -48,7 +48,7 @@
             transform: scale(1.05);
         }
 
-        /* Profile Page Styling */
+        
         .profile-container {
             max-width: 900px;
             margin: 50px auto;
@@ -76,7 +76,7 @@
             margin: 15px 0 5px;
             font-size: 1.75rem;
             font-weight: 600;
-            color: #FF8800; /* Orange */
+            color: #FF8800; 
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
         .profile-content {
@@ -89,7 +89,7 @@
             background: #f8f8f8;
         }
         .edit-btn {
-            background: #FF8800; /* Orange */
+            background: #FF8800; 
             color: white;
             padding: 8px 15px;
             border: none;

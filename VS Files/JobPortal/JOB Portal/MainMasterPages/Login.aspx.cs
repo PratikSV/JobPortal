@@ -29,11 +29,8 @@ namespace JOB_Portal.MainMasterPages
 
                 if (count > 0)
                 {
-                    // Store the UserID in session
                     Session["UserID"] = userID.Text.Trim();
-
-                    // Redirect to home page
-                    Response.Redirect("Home.aspx");
+                    Response.Redirect("profile.aspx");
                 }
                 else
                 {

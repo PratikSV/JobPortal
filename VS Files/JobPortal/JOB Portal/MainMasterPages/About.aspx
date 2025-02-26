@@ -6,8 +6,8 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #ddd; /* White background */
-            color: #333333; /* Dark Gray for text */
+            background-color: #ddd;
+            color: #333333; 
             text-align: center;
         }
         .section {
@@ -17,16 +17,15 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            /*background-color: #FFFFFF;*/ /* White */
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #FFB74D !important; /* Light Gray */
+            background-color: #FFB74D !important; 
             color: #333333;
         }
         .btn-primary {
-            background-color: #FF9800; /* Primary Orange */
+            background-color: #FF9800; 
             border: none;
             padding: 12px 25px;
             font-size: 18px;
@@ -36,7 +35,7 @@
             color: white;
         }
         .btn-primary:hover {
-            background-color: #E65100; /* Dark Orange */
+            background-color: #E65100; 
             transform: scale(1.05);
         }
         .btn-primary:active {
@@ -45,26 +44,26 @@
         .icon {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
         }
         a {
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
             text-decoration: none;
         }
         a:hover {
-            color: #E65100; /* Dark Orange */
+            color: #E65100; 
         }
         .custom-footer {
-            background-color: #333333; /* Dark Gray */
+            background-color: #333333;
             color: white;
             padding: 40px 0;
             text-align: center;
         }
         .custom-footer a {
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
         }
         .custom-footer a:hover {
-            color: #E65100; /* Dark Orange */
+            color: #E65100; 
         }
         .step-card {
             background: #FFFFFF;
@@ -83,53 +82,53 @@
         }
         .team-section {
             width: 50%;
-            background-color: #FFB74D; /* Light Orange */
+            background-color: #FFB74D; 
             padding: 2rem;
             margin: 1rem;
             border: 1px solid transparent;
             border-radius: 7px;
         }
         .team-section h4 {
-            color: #333333; /* Dark Gray */
+            color: #333333; 
         }
         .team-section p {
             color: white;
         }
         .linkedin-icon {
-            color: #0077b5; /* LinkedIn official color */
+            color: #0077b5; 
             text-decoration: none;
             margin-top: 10px;
             display: inline-block;
             transition: 0.3s;
         }
         .linkedin-icon:hover {
-            color: #005582; /* Darker shade for hover effect */
+            color: #005582; 
             transform: scale(1.1);
         }
         .custom-footer {
-            background-color: #333333; /* Dark background */
-            color: white; /* White text */
+            background-color: #333333;
+            color: white; 
             text-align: center;
             padding: 20px 0;
-            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-top: 50px; 
             margin-bottom: 0px;
             width: 100%;
-            height: 100px; /* Set footer height to 100px */
+            height: 100px; 
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
+            justify-content: center; 
+            align-items: center;
         }
         .custom-footer a {
-            color: #FF9800; /* Orange color for links */
+            color: #FF9800; 
             text-decoration: none;
             margin: 0 10px;
         }
         .custom-footer a:hover {
-            color: #F57C00; /* Darker orange on hover */
+            color: #F57C00; 
         }
         .custom-footer p {
-            margin: 5px 0; /* Adjust spacing for footer text */
+            margin: 5px 0; 
         }
 
         /* Founding Members Section Styling */
@@ -138,29 +137,29 @@
             padding: 60px 0;
         }
         .founding-members h2 {
-            color: #FF9800; /* Orange for headings */
+            color: #FF9800; 
             font-weight: 700;
             margin-bottom: 40px;
         }
         .founding-members .member-card {
-            background-color: #FFFFFF; /* White background */
-            border: 2px solid #FF9800; /* Orange border */
+            background-color: #FFFFFF; 
+            border: 2px solid #FF9800; 
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 20px;
             text-align: left;
         }
         .founding-members h4 {
-            color: #000000; /* Black for primary text */
+            color: #000000; 
             font-weight: 600;
         }
         .founding-members p {
-            color: #333333; /* Gray for secondary text */
+            color: #333333; 
             margin-bottom: 10px;
         }
         .founding-members .btn-linkedin {
-            background-color: #0077b5; /* Blue for LinkedIn button */
-            color: #FFFFFF; /* White text */
+            background-color: #0077b5; 
+            color: #FFFFFF; 
             border: none;
             padding: 10px 20px;
             border-radius: 5px;
@@ -169,7 +168,7 @@
             transition: background-color 0.3s ease;
         }
         .founding-members .btn-linkedin:hover {
-            background-color: #005582; /* Darker blue on hover */
+            background-color: #005582;
         }
         .nopadding{
             padding:0px;
