@@ -42,12 +42,9 @@ namespace JOB_Portal.MainMasterPages
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Response.Redirect("Emailsend.aspx");  // Handle success, show message to user
+                    Response.Redirect("Emailsend.aspx");  
                 }
-                else
-                {
-                    // Handle failure, show error message
-                }
+                
             }
         }
 
