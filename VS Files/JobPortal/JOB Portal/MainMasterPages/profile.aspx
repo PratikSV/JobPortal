@@ -1,11 +1,9 @@
 ﻿<%@ Page Title="Edit Profile" Language="C#" MasterPageFile="~/MainMasterPages/Main_Master_page.Master" AutoEventWireup="true" CodeBehind="profile-edit.aspx.cs" Inherits="JOB_Portal.MainMasterPages.ProfileEdit" %>
 
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
@@ -18,6 +16,39 @@
             margin: 0;
             font-family: 'Poppins', sans-serif;
         }
+
+        /* Login Message Styling */
+        .login-message-container {
+            max-width: 600px;
+            margin: 100px auto;
+            background-color: #222; /* Dark Gray/Black */
+            color: #fff; /* White */
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .login-message-container h3 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .login-btn {
+            background: #FF8800; /* Orange */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .login-btn:hover {
+            background: #E06A00;
+            transform: scale(1.05);
+        }
+
+        /* Profile Page Styling */
         .profile-container {
             max-width: 900px;
             margin: 50px auto;
@@ -35,20 +66,18 @@
             justify-content: space-around;
         }
         .profile-header img {
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             border: 3px solid #666;
-            padding: 5rem 1.5rem;
+            border-radius: 50%;
         }
         .profile-header h2 {
             margin: 15px 0 5px;
             font-size: 1.75rem;
             font-weight: 600;
-            color: #FF7800;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
-        }
-        .profile-header p {
-            font-size: 16px;
-            opacity: 0.9;
+            color: #FF8800; /* Orange */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
         .profile-content {
             padding: 20px;
@@ -59,13 +88,8 @@
             border-radius: 8px;
             background: #f8f8f8;
         }
-        .profile-section h3 {
-            margin-bottom: 10px;
-            font-size: 18px;
-            color: #333;
-        }
         .edit-btn {
-            background: #FF9800;
+            background: #FF8800; /* Orange */
             color: white;
             padding: 8px 15px;
             border: none;
@@ -74,74 +98,70 @@
             transition: all 0.3s ease-in-out;
         }
         .edit-btn:hover {
-            background: #E65100;
+            background: #E06A00;
             transform: scale(1.05);
         }
-        .edit-btn:active {
-            transform: scale(0.95);
-        }
-        .custom-footer {
-    background-color: #333333; 
-    color: white; 
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px; 
-    margin-bottom:0px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-}
-.custom-footer a {
-    color: #FF9800; 
-    text-decoration: none;
-    margin: 0 10px;
-}
-.custom-footer a:hover {
-    color: #F57C00; 
-}
-.custom-footer p {
-    margin: 5px 0px; 
-}
     </style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="profile-container">
-        <div class="profile-header">
-            <div class="left">
-                <img src="~/Images/profile-placeholder.jpg" alt="Profile Picture" runat="server">
+    <!-- Login Required Message -->
+    <div id="loginMessage" runat="server" visible="false" class="login-message-container">
+        <h3>First login to view the profile</h3>
+        <asp:Button ID="btnRedirectToLogin" runat="server" CssClass="login-btn mt-3" Text="Go to Login Page" OnClick="btnRedirectToLogin_Click" />
+    </div>
+
+    <!-- Profile Content -->
+    <div id="profileContainer" runat="server">
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="left">
+                    <asp:Image ID="imgProfile" runat="server" Width="150px" Height="150px" CssClass="rounded-circle" />
+                    <asp:FileUpload ID="fileUploadProfile" runat="server" CssClass="form-control mt-2" Visible="false" />
+                </div>
+                <div class="right">
+                    <h2>
+                        <asp:Label ID="lblName" runat="server" />
+                        <asp:TextBox ID="txtName" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </h2>
+                    <p>
+                        <asp:Label ID="lblAboutMe" runat="server" />
+                        <asp:TextBox ID="txtAboutMe" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </p>
+                    <p><i class="fas fa-map-marker-alt"></i> 
+                        <asp:Label ID="lblAddress" runat="server" />
+                        <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </p>
+                </div>
             </div>
 
-            <div class="right">
-                <h2>John Doe</h2>
-                <p>Software Developer | Open to Work</p>
-                <p><i class="fas fa-map-marker-alt"></i> New York, USA</p>
-                <asp:Button ID="btnEditProfile" runat="server" CssClass="edit-btn" Text="Edit Profile" />
+            <div class="profile-content">
+                <div class="profile-section">
+                    <h3>Experience</h3>
+                    <p>
+                        <asp:Label ID="lblExperience" runat="server" />
+                        <asp:TextBox ID="txtExperience" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </p>
+                </div>
+                <div class="profile-section">
+                    <h3>Education</h3>
+                    <p>
+                        <asp:Label ID="lblEducation" runat="server" />
+                        <asp:TextBox ID="txtEducation" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </p>
+                </div>
+                <div class="profile-section">
+                    <h3>Skills</h3>
+                    <p>
+                        <asp:Label ID="lblSkills" runat="server" />
+                        <asp:TextBox ID="txtSkills" runat="server" CssClass="form-control" Visible="false"></asp:TextBox>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="profile-content">
-            <div class="profile-section">
-                <h3>About Me</h3>
-                <p>Experienced software developer specializing in full-stack web development...</p>
-            </div>
-            <div class="profile-section">
-                <h3>Experience</h3>
-                <p>Software Engineer at Google (2021 - Present)</p>
-                <p>Web Developer at Microsoft (2018 - 2021)</p>
-            </div>
-            <div class="profile-section">
-                <h3>Education</h3>
-                <p>BSc in Computer Science - MIT (2014 - 2018)</p>
-            </div>
-            <div class="profile-section">
-                <h3>Skills</h3>
-                <span class="badge bg-primary">Java</span>
-                <span class="badge bg-secondary">Python</span>
-                <span class="badge bg-success">JavaScript</span>
+            <div class="text-center mt-3 mb-4">
+                <asp:Button ID="btnEdit" runat="server" CssClass="edit-btn" Text="Edit" OnClick="btnEdit_Click" />
+                <asp:Button ID="btnSave" runat="server" CssClass="edit-btn" Text="Save" OnClick="btnSave_Click" Visible="false" />
             </div>
         </div>
     </div>
