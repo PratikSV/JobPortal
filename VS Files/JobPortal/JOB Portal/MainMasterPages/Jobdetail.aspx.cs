@@ -36,7 +36,7 @@ namespace JOB_Portal.MainMasterPages
                         conn.Open();
                         using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            if (reader.Read()) // If data is found
+                            if (reader.Read()) 
                             {
                                 lblJobTitle.Text = reader["JobTitle"]?.ToString() ?? "N/A";
                                 lblCompany.Text = reader["Company"]?.ToString() ?? "N/A";
@@ -60,19 +60,19 @@ namespace JOB_Portal.MainMasterPages
                                 lblCompanyWebsite.Text = reader["CompanyWebsite"]?.ToString() ?? "N/A";
                                 lblCompanyEmail.Text = reader["CompanyEmail"]?.ToString() ?? "N/A";
 
-                                // Set Company Logo
+                                
                                 imgCompanyLogo.ImageUrl = reader["CompanyLogo"] != DBNull.Value && !string.IsNullOrEmpty(reader["CompanyLogo"].ToString())
                                     ? reader["CompanyLogo"].ToString()
                                     : "~/Images/default-logo.png";
 
-                                // Set Company Website Link
+                                
                                 companyWebsiteLink.HRef = reader["CompanyWebsite"] != DBNull.Value
                                     ? reader["CompanyWebsite"].ToString()
                                     : "#";
                             }
                             else
                             {
-                                // If no job is found, redirect back
+                                
                                 Response.Redirect("Findajob.aspx");
                             }
                         }
@@ -81,7 +81,7 @@ namespace JOB_Portal.MainMasterPages
             }
             catch (Exception ex)
             {
-                // Log the error (for debugging)
+                
                 Response.Write("<script>alert('Database error: " + ex.Message.Replace("'", "\\'") + "');</script>");
             }
         }

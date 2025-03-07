@@ -28,43 +28,43 @@
             width: 100%;
         }
         .hero-heading {
-            font-family: 'Mona Sans', sans-serif; /* Added Mona Sans font */
-            font-size: 64px; /* Increased size */
+            font-family: 'Mona Sans', sans-serif; 
+            font-size: 64px; 
             font-weight: bold;
-            color: #FF9800; /* Orange color */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black shadow effect */
-            -webkit-text-stroke: 1px white; /* White text border */
+            color: #FF9800; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            -webkit-text-stroke: 1px white;
             text-stroke: 1px white;
         }
         .hero-subtext {
             font-size: 20px;
             margin-top: 10px;
             opacity: 0.9;
-            color: white; /* White text color */
+            color: white; 
         }
         .search-container {
             margin-top: 20px;
             display: flex;
             justify-content: center;
             gap: 10px;
-            border: 2px solid white; /* White border */
-            border-radius: 10px; /* Rounded corners */
+            border: 2px solid white; 
+            border-radius: 10px; 
             padding: 10px;
-            box-shadow: 0 0 10px rgba(255, 152, 0, 0.7); /* Orange glow effect */
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) /* Slight transparent background */
+            box-shadow: 0 0 10px rgba(255, 152, 0, 0.7); 
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 
         }
         .search-container input {
             padding: 10px;
             width: 300px;
             border-radius: 5px;
-            border: none; /* Disabled input field border */
-            background: transparent; /* Transparent background */
-            color: white; /* White text color */
+            border: none; 
+            background: transparent;
+            color: white; 
             font-size: 16px;
-            outline: none; /* Remove outline on focus */
+            outline: none;
         }
         .search-container input::placeholder {
-            color: rgba(255, 255, 255); /* Placeholder text color */
+            color: rgba(255, 255, 255); 
         }
         .search-btn {
             background: #F57C00;
@@ -87,10 +87,10 @@
             width: 100%;
         }
         .categories-heading {
-            font-size: 32px;
+            font-size: 40px;
             font-weight: bold;
             margin-bottom: 20px;
-            color: #333333;
+            color: orange;
         }
         .categories-grid {
             display: grid;
@@ -146,34 +146,34 @@
             transform: scale(1.05);
         }
         .bg {
-            background: rgba(255, 255, 255, 0.7); /* White background with 50% visibility */
+            background: rgba(255, 255, 255, 0.7); 
             padding: 20px;
             border-radius: 10px;
         }
         .custom-footer {
-            background-color: #333333; /* Dark background */
-            color: white; /* White text */
+            background-color: #333333; 
+            color: white;
             text-align: center;
             padding: 20px 0;
-            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-top: 50px; 
             margin-bottom:0px;
             width: 100%;
-            height: 100px; /* Set footer height to 100px */
+            height: 100px;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
+            justify-content: center; 
+            align-items: center; 
         }
         .custom-footer a {
-            color: #FF9800; /* Orange color for links */
+            color: #FF9800;
             text-decoration: none;
             margin: 0 10px;
         }
         .custom-footer a:hover {
-            color: #F57C00; /* Darker orange on hover */
+            color: #F57C00; 
         }
         .custom-footer p {
-            margin: 5px 0; /* Adjust spacing for footer text */
+            margin: 5px 0;
         }
     </style>
 </asp:Content>

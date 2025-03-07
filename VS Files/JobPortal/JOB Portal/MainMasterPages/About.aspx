@@ -3,11 +3,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
+    <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #FFFFFF; /* White background */
-            color: #333333; /* Dark Gray for text */
+            background-color: #ddd;
+            color: #333333; 
             text-align: center;
         }
         .section {
@@ -17,16 +17,15 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background-color: #FFFFFF; /* White */
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
         .bg-light {
-            background-color: #FFB74D !important; /* Light Gray */
+            background-color: #FFB74D !important; 
             color: #333333;
         }
         .btn-primary {
-            background-color: #FF9800; /* Primary Orange */
+            background-color: #FF9800; 
             border: none;
             padding: 12px 25px;
             font-size: 18px;
@@ -36,7 +35,7 @@
             color: white;
         }
         .btn-primary:hover {
-            background-color: #E65100; /* Dark Orange */
+            background-color: #E65100; 
             transform: scale(1.05);
         }
         .btn-primary:active {
@@ -45,26 +44,26 @@
         .icon {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
         }
         a {
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
             text-decoration: none;
         }
         a:hover {
-            color: #E65100; /* Dark Orange */
+            color: #E65100; 
         }
         .custom-footer {
-            background-color: #333333; /* Dark Gray */
+            background-color: #333333;
             color: white;
             padding: 40px 0;
             text-align: center;
         }
         .custom-footer a {
-            color: #FF9800; /* Primary Orange */
+            color: #FF9800; 
         }
         .custom-footer a:hover {
-            color: #E65100; /* Dark Orange */
+            color: #E65100; 
         }
         .step-card {
             background: #FFFFFF;
@@ -83,54 +82,97 @@
         }
         .team-section {
             width: 50%;
-            background-color: #FFB74D; /* Light Orange */
+            background-color: #FFB74D; 
             padding: 2rem;
             margin: 1rem;
             border: 1px solid transparent;
             border-radius: 7px;
         }
         .team-section h4 {
-            color: #333333; /* Dark Gray */
+            color: #333333; 
         }
         .team-section p {
             color: white;
         }
         .linkedin-icon {
-            color: #0077b5; /* LinkedIn official color */
+            color: #0077b5; 
             text-decoration: none;
             margin-top: 10px;
             display: inline-block;
             transition: 0.3s;
         }
         .linkedin-icon:hover {
-            color: #005582; /* Darker shade for hover effect */
+            color: #005582; 
             transform: scale(1.1);
         }
         .custom-footer {
-    background-color: #333333; /* Dark background */
-    color: white; /* White text */
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px; /* Pushes footer to the bottom */
-    margin-bottom:0px;
-    width: 100%;
-    height: 100px; /* Set footer height to 100px */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-}
-.custom-footer a {
-    color: #FF9800; /* Orange color for links */
-    text-decoration: none;
-    margin: 0 10px;
-}
-.custom-footer a:hover {
-    color: #F57C00; /* Darker orange on hover */
-}
-.custom-footer p {
-    margin: 5px 0; /* Adjust spacing for footer text */
-}
+            background-color: #333333;
+            color: white; 
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px; 
+            margin-bottom: 0px;
+            width: 100%;
+            height: 100px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+        }
+        .custom-footer a {
+            color: #FF9800; 
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .custom-footer a:hover {
+            color: #F57C00; 
+        }
+        .custom-footer p {
+            margin: 5px 0; 
+        }
+
+        /* Founding Members Section Styling */
+        .founding-members {
+            
+            padding: 60px 0;
+        }
+        .founding-members h2 {
+            color: #FF9800; 
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        .founding-members .member-card {
+            background-color: #FFFFFF; 
+            border: 2px solid #FF9800; 
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .founding-members h4 {
+            color: #000000; 
+            font-weight: 600;
+        }
+        .founding-members p {
+            color: #333333; 
+            margin-bottom: 10px;
+        }
+        .founding-members .btn-linkedin {
+            background-color: #0077b5; 
+            color: #FFFFFF; 
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .founding-members .btn-linkedin:hover {
+            background-color: #005582;
+        }
+        .nopadding{
+            padding:0px;
+        }
     </style>
 </asp:Content>
 
@@ -138,13 +180,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <!-- Hero Section -->
-    <section class="section text-center bg-light">
-        <div class="container">
-            <h1 class="fw-bold">Your Dream Job is Just a Click Away!</h1>
-            <p class="lead">At DreamJOB, we bridge the gap between job seekers and employers, helping you find the perfect career opportunity.</p>
-            <button class="btn btn-primary" onclick="location.href='Jobs.aspx'">Explore Jobs</button>
-        </div>
-    </section>
+    <section class="section text-center position-relative nopadding">
+    <video autoplay muted loop class="w-100" style="max-height: 500px; object-fit: cover;">
+        <source src="images\aboutpage\Aboutpagevideo.mp4" controls="controls" />" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="position-absolute top-50 start-50 translate-middle text-white">
+        <h1 class="fw-bold">Welcome to DreamJob</h1>
+        <p>Your gateway to the best job opportunities</p>
+        <a href="Signup.aspx" class="btn btn-primary">Get Started</a>
+    </div>
+</section>
     
     <!-- How It Works -->
     <section class="section">
@@ -183,30 +229,35 @@
         </div>
     </section>
 
-        <!-- Partner Companies -->
-    <section class="section bg-light">
+    <!-- Founding Members Section -->
+    <section class="founding-members">
         <div class="container">
-            <h2 class="fw-bold">Partner Companies</h2>
-            <p>Connecting top talent with leading companies.</p>
+            <h2 class="text-center">Meet Our Founding Members</h2>
+            <div class="row">
+                <!-- Pratik Gaikwad -->
+                <div class="col-md-6">
+                    <div class="member-card">
+                        <h4>Pratik Gaikwad</h4>
+                        <p><strong>Role:</strong> Co-Founder & Lead Developer</p>
+                        <p><strong>About:</strong> Passionate about web development and technology, Pratik brings his expertise in JavaScript, CSS, and backend systems to DreamJob. With hands-on experience in building web applications, he aims to create an intuitive and efficient job portal that bridges the gap between job seekers and employers.</p>
+                        <button class="btn-linkedin" onclick="window.open('https://www.linkedin.com/in/pratik-gaikwad-88211b2b1', '_blank')">
+                            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Vinayak Chavan -->
+                <div class="col-md-6">
+                    <div class="member-card">
+                        <h4>Vinayak Chavan</h4>
+                        <p><strong>Role:</strong> Co-Founder & UI/UX Designer</p>
+                        <p><strong>About:</strong> With a keen eye for design and user experience, Vinayak ensures that DreamJob provides a seamless and engaging interface for users. His expertise in front-end technologies helps in crafting an attractive and user-friendly job portal that enhances the job search experience.</p>
+                        <button class="btn-linkedin" onclick="window.open('https://www.linkedin.com/in/vinayak-chavan-282038320/', '_blank')">
+                            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
-
-    <!-- Testimonials -->
-    <section class="section">
-        <div class="container">
-            <h2 class="fw-bold">Testimonials</h2>
-            <p>Hear from our happy job seekers and employers who found success through DreamJOB.</p>
-        </div>
-    </section>
-
-    <!-- Contact & Support -->
-    <section class="section bg-light">
-        <div class="container">
-            <h2 class="fw-bold">Contact & Support</h2>
-            <p>📧 Email: support@dreamjob.com</p>
-            <p>📞 Phone: +91 XXXXX XXXXX</p>
-            <p>📍 Address: (If applicable)</p>
-        </div>
-    </section>     
 </asp:Content>

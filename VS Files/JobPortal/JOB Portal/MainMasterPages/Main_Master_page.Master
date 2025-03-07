@@ -50,12 +50,13 @@
             <div class="container mt-4">
                 <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             </div>
+            <%--Footer--%>
              <footer class="custom-footer">
-    <div class="container text-center p-4">
-        <p>&copy; 2025 DreamJOB. All Rights Reserved.</p>
-      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-    </div>
-</footer>
+                 <div class="container text-center p-4">
+                    <p>&copy; 2025 DreamJOB. All Rights Reserved.</p>
+                    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                 </div>
+             </footer>
         </div>
     </form>
 </body>

@@ -9,6 +9,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\emailsend.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -17,6 +18,8 @@
     {
       "AbsoluteMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|B:\\Collage BCA\\PROJECT\\JobPortal\\VS Files\\JobPortal\\job portal\\mainmasterpages\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{683CB260-4413-4A99-B972-EE86D708F9D2}|JOB Portal\\JOB Portal.csproj|solutionrelative:job portal\\mainmasterpages\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+=======
+>>>>>>> f5bcfbc87fa151ea91d967f44fb547398899c65f
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +43,13 @@
               "RelativeDocumentMoniker": "JOB Portal\\MainMasterPages\\Contact.aspx.cs",
               "ToolTip": "B:\\Collage BCA\\PROJECT\\JobPortal\\VS Files\\JobPortal\\JOB Portal\\MainMasterPages\\Contact.aspx.cs",
               "RelativeToolTip": "JOB Portal\\MainMasterPages\\Contact.aspx.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwC4AAAAQAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC8AAAANAAAAAAAAAA==",
+>>>>>>> f5bcfbc87fa151ea91d967f44fb547398899c65f
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:00:32.12Z",
+              "WhenOpened": "2025-03-05T15:46:03.744Z",
               "EditorCaption": ""
             },
             {
@@ -55,6 +62,7 @@
               "RelativeToolTip": "JOB Portal\\MainMasterPages\\Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+<<<<<<< HEAD
               "WhenOpened": "2025-02-26T07:59:49.706Z"
             },
             {
@@ -80,6 +88,10 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-02-26T07:53:23.576Z"
+=======
+              "WhenOpened": "2025-03-05T15:45:48.444Z",
+              "EditorCaption": ""
+>>>>>>> f5bcfbc87fa151ea91d967f44fb547398899c65f
             }
           ]
         }

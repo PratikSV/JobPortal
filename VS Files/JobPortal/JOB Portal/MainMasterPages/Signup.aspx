@@ -83,29 +83,29 @@
             margin-bottom: 10px;
         }
          .custom-footer {
-            background-color: #333333; /* Dark background */
-            color: white; /* White text */
+            background-color: #333333;
+            color: white; 
             text-align: center;
             padding: 20px 0;
-            margin-top: 50px; /* Pushes footer to the bottom */
+            margin-top: 50px; 
             margin-bottom:0px;
             width: 100%;
-            height: 100px; /* Set footer height to 100px */
+            height: 100px; 
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
+            justify-content: center; 
+            align-items: center; 
         }
         .custom-footer a {
-            color: #FF9800; /* Orange color for links */
+            color: #FF9800; 
             text-decoration: none;
             margin: 0 10px;
         }
         .custom-footer a:hover {
-            color: #F57C00; /* Darker orange on hover */
+            color: #F57C00; 
         }
         .custom-footer p {
-            margin: 5px 0; /* Adjust spacing for footer text */
+            margin: 5px 0; 
         }
     </style>
 </asp:Content>
@@ -115,8 +115,6 @@
     <div class="form-container">
         <h2>Signup</h2>
         <h3>Create a Profile</h3>
-
-        <!-- ✅ Improved message display -->
         <asp:Label ID="lblMessage" runat="server" CssClass="message" Visible="false" />
 
         <div class="form-group">
@@ -138,7 +136,6 @@
             <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control" TextMode="Password" Placeholder="Confirm Password" />
         </div>
         
-        <!-- ✅ Added OnClick event for correct function call -->
         <asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary" Text="Sign Up" OnClick="Signup_Click" />
 
         <div class="login-link">
