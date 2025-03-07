@@ -75,6 +75,31 @@ namespace JOB_Portal.MainMasterPages
         protected void btnSave_Click(object sender, EventArgs e)
         {
             string connectionString = WebConfigurationManager.ConnectionStrings["MyDBConnection"].ConnectionString;
+            byte[] profileImage = null;
+
+            // If user hasn't uploaded a new image, fetch the existing one
+            if (!fileUploadProfile.HasFile)
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    string getImageQuery = "SELECT ProfileImage FROM UserProfile WHERE UserID = @UserID";
+                    SqlCommand getImageCmd = new SqlCommand(getImageQuery, con);
+                    getImageCmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString());
+
+                    con.Open();
+                    object existingImage = getImageCmd.ExecuteScalar();
+                    con.Close();
+
+                    if (existingImage != DBNull.Value)
+                    {
+                        profileImage = (byte[])existingImage;
+                    }
+                }
+            }
+            else
+            {
+                profileImage = fileUploadProfile.FileBytes;
+            }
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -92,14 +117,13 @@ namespace JOB_Portal.MainMasterPages
                 cmd.Parameters.AddWithValue("@Education", txtEducation.Text.Trim());
                 cmd.Parameters.AddWithValue("@Skills", txtSkills.Text.Trim());
 
-                if (fileUploadProfile.HasFile)
+                if (profileImage != null)
                 {
-                    byte[] imgBytes = fileUploadProfile.FileBytes;
-                    cmd.Parameters.AddWithValue("@ProfileImage", imgBytes);
+                    cmd.Parameters.Add("@ProfileImage", System.Data.SqlDbType.VarBinary).Value = profileImage;
                 }
                 else
                 {
-                    cmd.Parameters.AddWithValue("@ProfileImage", DBNull.Value);
+                    cmd.Parameters.Add("@ProfileImage", System.Data.SqlDbType.VarBinary).Value = DBNull.Value;
                 }
 
                 con.Open();

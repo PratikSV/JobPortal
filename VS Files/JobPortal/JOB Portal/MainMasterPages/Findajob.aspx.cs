@@ -200,7 +200,7 @@ namespace JOB_Portal.MainMasterPages
 
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                // Adjust this query based on your actual database schema
+                
                 string query = @"SELECT C.* 
                         FROM Companies C
                         INNER JOIN Jobs J ON C.CompanyID = J.CompanyID 
